@@ -6,6 +6,11 @@ import { RecipesListComponent } from './components/recipes-list/recipes-list.com
 
 const routes: Routes = [
     {
+        path: '',
+        redirectTo: 'recipes',
+        pathMatch: 'full'
+    },
+    {
         path: 'recipes',
         component: RecipesListComponent
     },
