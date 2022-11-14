@@ -1,0 +1,65 @@
+<div *ngIf="recipe; else error">
+    <div class="header display-flex">
+        <h1>{{ recipe.title }}</h1>
+
+        <div class="tools display-flex">
+            <button mat-button color="primary" *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)">Original Recipe</button>
+            <button mat-button color="primary" *ngIf="recipe.video" (click)="onClickLink(recipe.video)">Video</button>
+            
+            <div class="multiplier">
+                <button mat-icon-button (click)="onClickMultiplier(-1)" [disabled]="multiplier <= 1"><mat-icon>remove</mat-icon></button>
+                {{ multiplier }}
+                <button mat-icon-button (click)="onClickMultiplier(1)"><mat-icon>add</mat-icon></button>    
+                <button mat-button color="primary" (click)="onClickMultiplier(1 - multiplier)">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hashtag-chips">
+        <mat-chip-list [selectable]="false">
+            <mat-chip
+                *ngFor="let hashtag of recipe.hashtags"
+                [routerLink]="['..']"
+                [queryParams]="{ hashtag: hashtag }">
+                #{{ hashtag }}
+            </mat-chip>
+        </mat-chip-list>
+    </div>
+    
+    
+    <mat-accordion multi>
+        <mat-expansion-panel [expanded]="true">
+            <mat-expansion-panel-header>
+                <mat-panel-title>Ingredients</mat-panel-title>
+            </mat-expansion-panel-header>
+            
+            <div *ngFor="let group of ingredients">
+                <h4 *ngIf="group.section !== 'main'">{{ group.section }}</h4>
+                <ul>
+                    <li *ngFor="let item of group.ingredients">
+                        <span *ngIf="item.quantity">
+                            {{ item.quantity * multiplier }} {{ item.unit === "item" ? "" : item.unit }}
+                        </span>
+                        {{ item.ingredient }}
+                    </li>
+                </ul>
+            </div>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel [expanded]="true">
+            <mat-expansion-panel-header>
+                <mat-panel-title>Method</mat-panel-title>
+            </mat-expansion-panel-header>
+      
+            <ol>
+                <li *ngFor="let step of recipe.steps">
+                    {{ step }}
+                </li>
+            </ol>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
+
+<ng-template #error>
+    Recipe not found.
+</ng-template>

@@ -1,0 +1,32 @@
+{
+    "title": "Fajita",
+    "hashtags": ["mexican", "chicken", "cheese"],
+    "ingredients": [
+        { "quantity": 2, "unit": "tbsp", "ingredient": "canola oil", "type": "marinade" },
+        { "quantity": 2, "unit": "tbsp", "ingredient": "lemon juice", "type": "marinade" },
+        { "quantity": 1.5, "unit": "tsp", "ingredient": "salt", "type": "marinade" },
+        { "quantity": 1.5, "unit": "tsp", "ingredient": "dreid oregano", "type": "marinade" },
+        { "quantity": 1.5, "unit": "tsp", "ingredient": "cumin", "type": "marinade" },
+        { "quantity": 1, "unit": "tsp", "ingredient": "garlic powder", "type": "marinade" },
+        { "quantity": 0.5, "unit": "tsp", "ingredient": "chilli powder", "type": "marinade" },
+        { "quantity": 0.5, "unit": "tsp", "ingredient": "paprika", "type": "marinade" },
+        { "quantity": 0.5, "unit": "tsp", "ingredient": "crushed red pepper flakes", "type": "marinade" },
+        { "quantity": 680, "unit": "g", "ingredient": "chicken" },
+        { "quantity": 2, "unit": "item", "ingredient": "red & green bell peppers" },
+        { "quantity": 4, "unit": "item", "ingredient": "spring onions" },
+        { "quantity": 1, "unit": "item", "ingredient": "onion" },
+        { "ingredient": "tortilla" },
+        { "ingredient": "salsa" },
+        { "ingredient": "sour cream" },
+        { "ingredient": "cheddar cheese" },
+        { "ingredient": "guacamole" }
+    ],
+    "steps": [
+        "Cut chicken into strips and marinate it in a mixture of all seasonings. Refrigerate for 1-4 hours.",
+        "Julienne the bell peppers and saute in pan until crisp-tender. Set aside.",
+        "Cook chicken over medium high heat until no longer pink.",
+        "Add bell peppers back into the pan. Mix and heat through."
+    ],
+    "originalRecipe": "https://www.tasteofhome.com/recipes/flavorful-chicken-fajitas/",
+    "video": null
+}
