@@ -20,7 +20,7 @@ export class RecipesListComponent implements OnInit, AfterViewInit {
     recipes: Recipe[] = [];
     dataSource: MatTableDataSource<Recipe>;
 
-    filters: string[] = [];
+    hashtags: string[] = [];
 
     displayedColumns: string[] = ['title', 'hashtags'];
 
@@ -32,23 +32,32 @@ export class RecipesListComponent implements OnInit, AfterViewInit {
     }
 
     ngOnInit(): void {
+        this.hashtags = [this.route.snapshot.queryParams['hashtag']] ?? [];
+
         this.recipesService.getAllRecipes().subscribe(
             result => {
                 this.recipes = result;
                 this.dataSource.data = result;
+                this.dataSource.data = this.filteredDataByHashtags();
             },
             error => {
                 console.log('Cannot get recipe list', error)
             }
         )
-
-        this.filters = this.route.snapshot.queryParams['hashtag'];
-        console.log(this.filters);
     }
 
     ngAfterViewInit() {
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;
+    }
+
+    onRemoveHashtagFilter(hashtag: string): void {
+        const index = this.hashtags.indexOf(hashtag);
+
+        if (index >= 0) {
+            this.hashtags.splice(index, 1);
+            this.dataSource.data = this.filteredDataByHashtags();
+        }
     }
 
     applyFilter(event: Event) {
@@ -62,6 +71,16 @@ export class RecipesListComponent implements OnInit, AfterViewInit {
     }
 
     onClickHashtag(hashtag: string): void {
-        this.filters.push(hashtag);
+        console.log(this.hashtags, hashtag, !this.hashtags.includes(hashtag))
+        if (!this.hashtags.includes(hashtag)) {
+            this.hashtags.push(hashtag);
+            this.dataSource.data = this.filteredDataByHashtags();
+        }
+    }
+
+    filteredDataByHashtags(): Recipe[] {
+        return this.hashtags.length
+            ? this.recipes.filter(recipe => this.hashtags.every(h => recipe.hashtags.includes(h)))
+            : this.recipes;
     }
 }

@@ -6,6 +6,15 @@
     </button>
 </div>
 
+<mat-chip-list [selectable]="false">
+    <mat-chip *ngFor="let hashtag of hashtags" (removed)="onRemoveHashtagFilter(hashtag)">
+        #{{ hashtag }}
+        <button matChipRemove>
+            <mat-icon>cancel</mat-icon>
+        </button>
+    </mat-chip>
+</mat-chip-list>
+
 <mat-form-field appearance="standard">
     <mat-label>Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" #input>
