@@ -64,7 +64,6 @@ export class RecipesListComponent implements OnInit, AfterViewInit {
     applyFilter(event: Event) {
         const filterValue = (event.target as HTMLInputElement).value;
         this.dataSource.filter = filterValue.trim().toLowerCase();
-        console.log(this.dataSource)
     
         if (this.dataSource.paginator) {
             this.dataSource.paginator.firstPage();
@@ -72,7 +71,6 @@ export class RecipesListComponent implements OnInit, AfterViewInit {
     }
 
     onClickHashtag(hashtag: string): void {
-        console.log(this.hashtags, hashtag, !this.hashtags.includes(hashtag))
         if (!this.hashtags.includes(hashtag)) {
             this.hashtags.push(hashtag);
             this.dataSource.data = this.filteredDataByHashtags();

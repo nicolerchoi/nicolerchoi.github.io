@@ -39,7 +39,6 @@ export class RecipeComponent implements OnInit {
                         section, ingredients
                     }))
                         .sort((a, b) => a.section === 'main' ? -1 : b.section === 'main' ? 1 : 0 );
-                    console.log(this.ingredients)
                 },
                 error => {
                     console.log('errorrrrr:', error)
