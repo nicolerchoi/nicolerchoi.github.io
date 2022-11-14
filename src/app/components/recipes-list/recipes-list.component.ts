@@ -32,7 +32,8 @@ export class RecipesListComponent implements OnInit, AfterViewInit {
     }
 
     ngOnInit(): void {
-        this.hashtags = [this.route.snapshot.queryParams['hashtag']] ?? [];
+        const queryHashtag = this.route.snapshot.queryParams['hashtag'];
+        this.hashtags = queryHashtag ? [queryHashtag] : [];
 
         this.recipesService.getAllRecipes().subscribe(
             result => {
