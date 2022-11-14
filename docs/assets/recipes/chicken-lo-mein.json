@@ -1,0 +1,160 @@
+{
+    "title": "Chicken Lo Mein",
+    "hashtags": [
+        "chinese",
+        "noodles",
+        "chicken",
+        "takeaway"
+    ],
+    "ingredients": [
+        {
+            "quantity": 230,
+            "unit": "g",
+            "ingredient": "chicken breast",
+            "type": null
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "salt",
+            "type": "Chicken marinade"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "tsp",
+            "ingredient": "white pepper",
+            "type": "Chicken marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "shaoxing wine",
+            "type": "Chicken marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "Chicken marinade"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tbsp",
+            "ingredient": "cornstarch",
+            "type": "Chicken marinade"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tbsp",
+            "ingredient": "oil",
+            "type": "Chicken marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "medium carrot",
+            "type": null
+        },
+        {
+            "quantity": 210,
+            "unit": "g",
+            "ingredient": "cabbage",
+            "type": null
+        },
+        {
+            "quantity": 0.25,
+            "unit": "item",
+            "ingredient": "white onion",
+            "type": null
+        },
+        {
+            "quantity": 5,
+            "unit": "item",
+            "ingredient": "spring onions",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "ginger",
+            "type": null
+        },
+        {
+            "quantity": 5,
+            "unit": "item",
+            "ingredient": "garlic",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "oyster sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "dark soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "shaoxing wine",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "sesame oil",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "tsp",
+            "ingredient": "white pepper",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tbsp",
+            "ingredient": "sugar",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "water",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tbsp",
+            "ingredient": "cornstarch",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 16,
+            "unit": "oz",
+            "ingredient": "egg noodles",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Slice the chicken breast into strips and marinate it for 15-20 minutes.",
+        "Slice the carrot, cabbage and onion. Chop the spring onions, greens and whites separated. Minced the ginger and garlic.",
+        "Cook noodles about 2 minutes less than package directions. Rinse with cold water and drain dry. Coat with sesame oil to prevent sticking.",
+        "Over high heat, sear the chicken in 3 tbsp of oil for 2-3 minutes until cooked through. Set aside.",
+        "In the remaining oil, sauté garlic and ginger for 15 seconds, followed by scallion white and veggies. Sauté for a few minutes until slightly wilted.",
+        "Add noodles, chicken and sauce and mix thoroughly for 1-2 minutes. Continue cooking until sauce has thickened and is evenly coated.",
+        "Add scallion greens, mix and serve."
+    ],
+    "originalRecipe": "https://cjeatsrecipes.com/chicken-lo-mein/",
+    "video": "https://youtube.com/shorts/U0FL3OsDwDE"
+}
