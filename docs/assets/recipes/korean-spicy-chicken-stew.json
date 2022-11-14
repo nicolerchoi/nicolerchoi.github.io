@@ -1,0 +1,105 @@
+{
+    "title": "Korean Spicy Chicken Stew",
+    "hashtags": [
+        "korean",
+        "chicken",
+        "spicy",
+        "potatoes",
+        "warm",
+        "sweet",
+        "chilli"
+    ],
+    "ingredients": [
+        {
+            "quantity": 1,
+            "unit": "kg",
+            "ingredient": "chicken thigh",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "onions",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "carrots",
+            "type": null
+        },
+        {
+            "quantity": 4,
+            "unit": "item",
+            "ingredient": "potatoes",
+            "type": null
+        },
+        {
+            "quantity": 6,
+            "unit": "item",
+            "ingredient": "green chilis",
+            "type": null
+        },
+        {
+            "ingredient": "spring onions"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "garlic",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 3,
+            "unit": "tbsp",
+            "ingredient": "sugar",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 3,
+            "unit": "tsp",
+            "ingredient": "salt",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 3,
+            "unit": "tbsp",
+            "ingredient": "gochujang",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 6,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 3,
+            "unit": "tbsp",
+            "ingredient": "rice wine",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 3,
+            "unit": "tbsp",
+            "ingredient": "sesame oil",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 3,
+            "unit": "tbsp",
+            "ingredient": "honey",
+            "type": "Sauce"
+        }
+    ],
+    "steps": [
+        "Boil chicken thighs to get rid of the gunk. Remove chicken from pot and rinse.",
+        "Fry chicken thighs in the wok until the surface is golden brown on both sides.",
+        "Add the sauce and 1.2L of water into the wok. Mix well and bring to boil, then put on the lid and continue to cook for 10 mins at low heat.",
+        "Chop the carrots and potatoes into chunks and add to the wok. Cook for 15 mins at medium high heat.",
+        "Chop the onions into chunks and slice the green chilli diagonally. Add to the wok and cook for 2 minutes.",
+        "Add spring onions and serve."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/PoXSFHsH23A"
+}
