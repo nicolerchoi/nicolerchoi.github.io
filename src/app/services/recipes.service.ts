@@ -47,7 +47,7 @@ export interface UnquantifiedIngredient {
 
 export interface QuantifiedIngredient {
     quantity: number;
-    unit: "item" | "tbsp" | "tsp" | "g" | "cup";
+    unit: "item" | "tbsp" | "tsp" | "g" | "kg" | "cup" | "oz" | "mL" | "L";
     ingredient: string;
     type?: string;
 }
@@ -59,5 +59,7 @@ export enum UNIT {
     GRAM = 'g',
     KG = 'kg',
     CUP = 'cup',
-    OZ = 'oz'
+    OZ = 'oz',
+    ML = 'mL',
+    L = 'L'
 }

@@ -1,5 +1,16 @@
 [
     {
+        "id": "chicken-a-la-king",
+        "title": "Chicken a la King 白汁雞皇飯",
+        "hashtags": [
+            "chicken",
+            "hong kong",
+            "creamy",
+            "saucey",
+            "perfect with rice"
+        ]
+    },
+    {
         "id": "chicken-lo-mein",
         "title": "Chicken Lo Mein",
         "hashtags": [
@@ -7,6 +18,20 @@
             "noodles",
             "chicken",
             "takeaway"
+        ]
+    },
+    {
+        "id": "chinese-cabbage-with-vermicelli",
+        "title": "Chinese Cabbage with Vermicelli 白菜粉絲煲",
+        "hashtags": [
+            "chinese",
+            "homecook",
+            "vegetarian",
+            "chinese cabbage",
+            "chinese leaf",
+            "vermicelli",
+            "glass noodles",
+            "noodles"
         ]
     },
     {
@@ -37,6 +62,25 @@
         "hashtags": [
             "chinese",
             "fish"
+        ]
+    },
+    {
+        "id": "steamed-lemon-chicken",
+        "title": "Steamed Lemon Chicken 檸檬蒸雞",
+        "hashtags": [
+            "chinese",
+            "homecook",
+            "chicken"
+        ]
+    },
+    {
+        "id": "stir-fried-shredded-pork-with-green-pepper",
+        "title": "Stir-fried Shredded Pork with Green Pepper 青椒肉絲",
+        "hashtags": [
+            "pork",
+            "bell pepper",
+            "chinese",
+            "homecook"
         ]
     }
 ]

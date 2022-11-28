@@ -1,0 +1,100 @@
+{
+    "title": "Chicken a la King 白汁雞皇飯",
+    "hashtags": [
+      "chicken",
+      "hong kong",
+      "creamy",
+      "saucey",
+      "perfect with rice"
+    ],
+    "ingredients": [
+      {
+        "quantity": 600,
+        "unit": "g",
+        "ingredient": "chicken thigh",
+        "type": null
+      },
+      {
+        "quantity": 10,
+        "unit": "item",
+        "ingredient": "white mushrooms",
+        "type": null
+      },
+      {
+        "quantity": 3,
+        "unit": "item",
+        "ingredient": "carrots",
+        "type": null
+      },
+      {
+        "quantity": 2,
+        "unit": "item",
+        "ingredient": "potatoes",
+        "type": null
+      },
+      {
+        "ingredient": "peas"
+      },
+      {
+        "quantity": 40,
+        "unit": "g",
+        "ingredient": "unsalted butter",
+        "type": "Béchamel sauce"
+      },
+      {
+        "quantity": 40,
+        "unit": "g",
+        "ingredient": "all purpose flour",
+        "type": "Béchamel sauce"
+      },
+      {
+        "quantity": 200,
+        "unit": "ml",
+        "ingredient": "double cream",
+        "type": "Béchamel sauce"
+      },
+      {
+        "quantity": 250,
+        "unit": "ml",
+        "ingredient": "chicken stock",
+        "type": "Béchamel sauce"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "ingredient": "salt",
+        "type": "chicken marinade"
+      },
+      {
+        "quantity": 0.25,
+        "unit": "tsp",
+        "ingredient": "sugar",
+        "type": "chicken marinade"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "ingredient": "garlic powder",
+        "type": "chicken marinade"
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "ingredient": "onion powder",
+        "type": "chicken marinade"
+      }
+    ],
+    "steps": [
+      "Cut chicken thigh into bite size pieces (butterfly-cut the meat if it is thick), and marinate it for 20 minutes.",
+      "Wipe the mushrooms with wet towel, or peel the mushroom skin, before slicing them.",
+      "Chop carrots and potatoes into chunks. Cook them in boiling water until they are semi-softened. Drain and set aside.",
+      "Melt the butter in a pan. When it starts bubbling, add all purpose flour and keep stirring it at low heat.",
+      "When it starts to release a buttery/cakey smell, add cold cream and chicken stock, and stir for 1-2 minutes.",
+      "Add chicken thigh, carrots and potatoes into the sauce and mix well. Add more chicken stock if need to. Put a lid on and cook for 5 minutes at low heat.",
+      "Check that the sauce has simmered and thickened. If you get some sauce onto a spoon, and wipe it off with a finger. If the liquid doesn't close the gap, the sauce has the right consistency.",
+      "Add mushrooms and peas, and cooked with the lid on for 1-2 minutes.",
+      "Add some salt to taste and serve."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/ESQKXZNw-6U"
+  }

@@ -1,0 +1,55 @@
+{
+    "title": "Chinese Cabbage with Vermicelli 白菜粉絲煲",
+    "hashtags": [
+        "chinese",
+        "homecook",
+        "vegetarian",
+        "chinese cabbage",
+        "chinese leaf",
+        "vermicelli",
+        "glass noodles",
+        "noodles"
+    ],
+    "ingredients": [
+        {
+            "quantity": 400,
+            "unit": "g",
+            "ingredient": "chinese cabbage",
+            "type": null
+        },
+        {
+            "quantity": 200,
+            "unit": "g",
+            "ingredient": "vermicelli",
+            "type": null
+        },
+        {
+            "ingredient": "chilli"
+        },
+        {
+            "ingredient": "spring onions, chopped"
+        },
+        {
+            "ingredient": "minced garlic"
+        },
+        {
+            "ingredient": "salt"
+        },
+        {
+            "ingredient": "light soy sauce"
+        }
+    ],
+    "steps": [
+        "Soak vermicelli noodles in hot water for 10 minutes.",
+        "Chop chinese cabbage into wedges (cut diagonally to increase surface area), separating the leaves and roots.",
+        "Heat up some oil in a wok, and fry the chinese cabbage roots for about a minute until they release some water.",
+        "Add the leaves in and fry for another minute, until slightly softened.",
+        "Add salt and soy sauce and continue frying for 1-2 minutes.",
+        "Add vermicelli noodles and mix well. Put a lid on and let it cook for 5-8 minutes at low heat.",
+        "After it is simmered down, turn off the heat and let it sit with the lid on.",
+        "In a different pot, heat up some oil for 1 minute.",
+        "Add chilli, spring onion and garlic into the vermicelli pot. Pour hot oil over it and serve."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/ogOSfnHTn3Y"
+}

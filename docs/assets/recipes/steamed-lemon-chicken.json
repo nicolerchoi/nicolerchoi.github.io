@@ -1,0 +1,62 @@
+{
+    "title": "Steamed Lemon Chicken 檸檬蒸雞",
+    "hashtags": [
+        "chinese",
+        "homecook",
+        "chicken"
+    ],
+    "ingredients": [
+        {
+            "quantity": 500,
+            "unit": "g",
+            "ingredient": "chicken thigh, deboned",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "lemon/lime",
+            "type": null
+        },
+        {
+            "ingredient": "coriander"
+        },
+        {
+            "ingredient": "fish sauce",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "soy sauce",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "palm sugar",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "chilli",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "garlic, minced",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "lemon juice",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "coriander, chopped",
+            "type": "sauce"
+        }
+    ],
+    "steps": [
+        "Score the chicken thigh, especially on the thicker bits - it prevents the meat from contracting and helps it to cook.",
+        "Marinade chicken thigh with salt and white pepper, and gently massage it.",
+        "Place the meat into a bowl, add lemon juice and massage. Flip the thigh such that the skin side is on top.",
+        "Steam the chicken for 17-18 minutes. After that, turn off the heat and let it sit for 5 minutes.",
+        "Serve with sauce and coriander."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/Ebaz4nZU1Lg"
+}

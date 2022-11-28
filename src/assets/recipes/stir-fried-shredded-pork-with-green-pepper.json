@@ -1,0 +1,99 @@
+{
+    "title": "Stir-fried Shredded Pork with Green Pepper 青椒肉絲",
+    "hashtags": [
+        "pork",
+        "bell pepper",
+        "chinese",
+        "homecook"
+    ],
+    "ingredients": [
+        {
+            "quantity": 300,
+            "unit": "g",
+            "ingredient": "pork",
+            "type": null
+        },
+        {
+            "quantity": 250,
+            "unit": "g",
+            "ingredient": "green bell pepper",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "chilli",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "g",
+            "ingredient": "sugar",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "g",
+            "ingredient": "salt",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "g",
+            "ingredient": "white pepper",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "marinade"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "rice wine",
+            "type": "marinade"
+        },
+        {
+            "quantity": 15,
+            "unit": "g",
+            "ingredient": "corn starch",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "ginger paste",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "rice wine",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "sauce"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "garlic paste",
+            "type": "sauce"
+        }
+    ],
+    "steps": [
+        "Cut pork into strips and marinate for 20-30 minutes.",
+        "Julienne the green bell pepper and cut chilli diagonally.",
+        "Heat up some oil in a wok. Fry the green bell pepper until half-cooked and set aside.",
+        "Add pork strips into the work and fry until the pork turns white.",
+        "Add sauce and chilli and mix well.",
+        "When the sauce reduces down, add green pepper and fry until it is fully cooked."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/DXppgYj-Z88"
+}
