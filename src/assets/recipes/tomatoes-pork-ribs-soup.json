@@ -1,0 +1,59 @@
+{
+    "title": "Tomatoes Pork Ribs Soup 蕃茄排骨湯",
+    "hashtags": [
+        "homecook",
+        "soup"
+    ],
+    "ingredients": [
+        {
+            "ingredient": "pork ribs",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "spring onions",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "ginger slices",
+            "type": null
+        },
+        {
+            "ingredient": "tomatoes",
+            "type": null
+        },
+        {
+            "ingredient": "sweet corns",
+            "type": null
+        },
+        {
+            "ingredient": "shiitake mushrooms",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "oyster sauce",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Chop tomatoes into wedges, and sweet corns into chunks.",
+        "Broil pork ribs, spring onions and ginger until the gunk comes out. Rinse the pork ribs and set aside.",
+        "Heat up some oil in a wok and add tomatoes. Fry until the tomato juice comes out.",
+        "Add pork ribs into the wok and fry.",
+        "Add sweet corns, shiitake mushrooms, soy sauce and oyster sauce. Add water into the water until the ingredients are fully submerged.",
+        "Boil for 30 minutes and add salt to taste. Sprinkle some spring onions and serve."
+    ],
+    "originalRecipe": "https://www.facebook.com/permalink.php?story_fbid=pfbid02tq5cK9JCqPJFx3X8PBQNvWSoYzBRExFe7AmBHhZV5dWvyARbspjk3K6adZ14sjsNl&id=100164939535183",
+    "video": null
+}

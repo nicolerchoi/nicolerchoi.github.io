@@ -1,0 +1,23 @@
+{
+    "title": "Lettuce with Fermented Bean Curd 椒絲腐乳西生菜",
+    "hashtags": ["vegetarian", "homecook", "chinese"],
+    "ingredients": [
+        { "quantity": 600, "unit": "g", "ingredient": "lettuce" },
+        { "quantity": 4, "unit": "item", "ingredient": "fermented bean curd" },
+        { "ingredient": "ginger" },
+        { "ingredient": "red chilli pepper" },
+        { "quantity": 1, "unit": "tbsp", "ingredient": "oyster sauce" },
+        { "quantity": 0.5, "unit": "tsp", "ingredient": "cornstach" }        
+    ],
+    "steps": [
+        "Shred the lettuce by hand and rinse.",
+        "Julienne the red chilli pepper and ginger into very thin slices.",
+        "Heat up the pan and add in some oil, ginger and red chilli pepper. Fry them at low heat until fragrant.",
+        "At high heat, add in the fermented bean curd and break them up.",
+        "Once fragrant, add lettuce into the pan and continue to fry at high heat until slightly wilted.",
+        "Put the lid on for about 30s to 1min, remove the lid and continue to to fry until the lettuce has softened.",
+        "Add oyster sauce, cornstach and water and mix well."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/Y-_4IMkWQJ4"
+}

@@ -1,0 +1,83 @@
+{
+    "title": "Minced Pork and Green Beans Lo Meen",
+    "hashtags": [
+        "chinese",
+        "takeaway",
+        "homecook",
+        "noodles",
+        "minced pork"
+    ],
+    "ingredients": [
+        {
+            "ingredient": "minced pork",
+            "type": null
+        },
+        {
+            "ingredient": "noodles",
+            "type": null
+        },
+        {
+            "ingredient": "green beans",
+            "type": null
+        },
+        {
+            "ingredient": "spring onions",
+            "type": null
+        },
+        {
+            "ingredient": "ginger",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "soy sauce",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "oyster sauce",
+            "type": "sauce"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "dark soy sauce",
+            "type": "sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tsp",
+            "ingredient": "soy bean sauce",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "cornstarch",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "sugar",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "water",
+            "type": "sauce"
+        }
+    ],
+    "steps": [
+        "Dice the green beans. Chop spring onions and ginger.",
+        "Cook the noodles. Drain and soak in cold water.",
+        "Cook the green beans in boiling water and set aside.",
+        "Fry the minced pork until cooked through. Then add spring onions and ginger and fry until fragrant.",
+        "Add green beans and stir for a minute.",
+        "Add the sauce in until it starts bubbling.",
+        "Drain the noodles and mix with the meat sauce."
+    ],
+    "originalRecipe": "https://www.facebook.com/permalink.php?story_fbid=pfbid022SWT5YqQjkatKBfG9969skpVNhowzTjUfKProTxnkh1rhaafZy94mPJKpnSebos3l&id=106218682249574",
+    "video": null
+}

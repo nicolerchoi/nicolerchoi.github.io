@@ -1,0 +1,53 @@
+{
+    "title": "Lettuce in chilli garlic sauce 白灼生菜",
+    "hashtags": [
+        "homecook",
+        "vegetarian",
+        "vegetables",
+        "healthy"
+    ],
+    "ingredients": [
+        {
+            "ingredient": "lettuce",
+            "type": null
+        },
+        {
+            "ingredient": "garlic",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "spring onions",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "red chilli",
+            "type": "sauce"
+        },
+        {
+            "quantity": 3,
+            "unit": "tbsp",
+            "ingredient": "seasoned soy sauce for seafood 蒸魚豉油",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "sesame oil",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "dark vinegar",
+            "type": "sauce"
+        }
+    ],
+    "steps": [
+        "Cut lettuce vertically into long chunks.",
+        "Mince the garlic, chop spring onions and thinly strip the chilli. Put them in a bowl and pour hot oil over, then add in the remaining sauce ingredients and mix well.",
+        "Blanch the lettuce in boiling water with some oil and salt.",
+        "Serve lettuce with sauce."
+    ],
+    "originalRecipe": null,
+    "video": "https://www.facebook.com/100053513012867/videos/338454891281609/?idorvanity=464611474757832"
+}

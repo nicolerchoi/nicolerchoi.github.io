@@ -1,0 +1,90 @@
+{
+    "title": "General Tso's Chicken 左宗棠雞",
+    "hashtags": [
+        "chinese",
+        "homecook",
+        "chicken",
+        "restaurant dish"
+    ],
+    "ingredients": [
+        {
+            "quantity": 100,
+            "unit": "g",
+            "ingredient": "vermicelli",
+            "type": null
+        },
+        {
+            "quantity": 250,
+            "unit": "g",
+            "ingredient": "tofu",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "red bell pepper",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "onion",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "item",
+            "ingredient": "garlic cloves",
+            "type": null
+        },
+        {
+            "ingredient": "basil"
+        },
+        {
+            "ingredient": "spinach"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "oyster sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "sugar",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tsp",
+            "ingredient": "dark soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "ingredient": "chilli oil",
+            "type": "Sauce"
+        },
+        {
+            "ingredient": "sriracha",
+            "type": "Sauce"
+        }
+    ],
+    "steps": [
+        "Cook vermicelli. Drain and set aside.",
+        "Slice tofu into cubes, julienne red bell pepper, slice onion and mince the garlic.",
+        "Heat up some oil over medium heat and pan fry the tofu until golden brown. Add in 0.5 tbsp soy sauce and mix well.",
+        "Move the tofu to the side of the pan, stir fry the bell peppers, onions and garlic until the bell peppers are tender.",
+        "Add half of the basil leaves and spinach.",
+        "Add vermicelli and sauce. Mix well and cook until the sauce is reduced down.",
+        "Add the remaining basil leaves and cook until slightly wilted."
+    ],
+    "originalRecipe": "https://thefoodietakesflight.com/basil-and-tofu-vermicelli/",
+    "video": null
+}

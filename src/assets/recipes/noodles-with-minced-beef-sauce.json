@@ -1,0 +1,101 @@
+{
+    "title": "Noodles with Minced Beef Sauce",
+    "hashtags": [
+        "chinese",
+        "homecook",
+        "noodles",
+        "minced beef"
+    ],
+    "ingredients": [
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "red bean chilli paste",
+            "type": null
+        },
+        {
+            "ingredient": "minced ginger",
+            "type": null
+        },
+        {
+            "ingredient": "minced garlic",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "sichuan peppercorns",
+            "type": null
+        },
+        {
+            "ingredient": "minced beef",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "sugar",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "oyster sauce",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "shaoxing wine",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "black pepper",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "white pepper",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "chicken essence",
+            "type": null
+        },
+        {
+            "quantity": 2.5,
+            "unit": "cup",
+            "ingredient": "broth/water",
+            "type": null
+        },
+        {
+            "ingredient": "cornstarch water",
+            "type": null
+        },
+        {
+            "ingredient": "spring onions",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Heat vegetable oil in pan till lightly smoking, turn the heat down to medium.",
+        "Add in red bean chilli paste, ginger, garlic, sichuan peppercorns and minced beef and cook for two minutes.",
+        "Add sugar, soy sauce, oyster sauce, shaoxing wine, black and white peppers and continue to cook for 3-5 minutes.",
+        "Add chicken essence and broth (or water). Mix well and cook at medium low heat for 5 minutes with lid on.",
+        "Slowly add cornstarch water around the edge and toss until the meat sauce thickens up.",
+        "Mix the meat sauce into cooked noodles and serve with chopping spring onions and cucumber."
+    ],
+    "originalRecipe": "https://www.facebook.com/groups/ChineseCooking/permalink/1203219353433433/",
+    "video": null
+}

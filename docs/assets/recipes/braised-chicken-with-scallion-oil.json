@@ -1,0 +1,74 @@
+{
+    "title": "Braised chicken with scallion oil 蔥油燜雞",
+    "hashtags": [
+        "chinese",
+        "homecook",
+        "chicken",
+        "goes well with rice"
+    ],
+    "ingredients": [
+        {
+            "ingredient": "chicken thighs",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "tsp",
+            "ingredient": "soy sauce",
+            "type": "marinade"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "dark soy sauce",
+            "type": "marinade"
+        },
+        {
+            "quantity": 2,
+            "unit": "tsp",
+            "ingredient": "shaoxing wine",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "oyster sauce",
+            "type": "marinade"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "tsp",
+            "ingredient": "white pepper",
+            "type": "marinade"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "tsp",
+            "ingredient": "salt",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "cornstarch",
+            "type": "marinade"
+        },
+        {
+            "ingredient": "spring onions",
+            "type": null
+        },
+        {
+            "ingredient": "ginger",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Dice chicken thighs and marinate them for 30 minutes.",
+        "Slice ginger and chop spring onions into chunks.",
+        "Heat up some oil. Fry spring onions and ginger at high heat until golden brown and slightly burnt. Remove from pan.",
+        "Add chicken thighs into the pan and fry at low heatuntil cooked on both sides.",
+        "Garnish with spring onions and serve."
+    ],
+    "originalRecipe": "https://m.facebook.com/story.php?story_fbid=pfbid02puGUM9HER5GyhVaoqAR7ahapp3LJkkDe2CNQy7PTCfqLmDvAHLk3v6vE1SdXtwoFl&id=100805362802681",
+    "video": null
+}

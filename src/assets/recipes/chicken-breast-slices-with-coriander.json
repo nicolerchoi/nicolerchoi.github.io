@@ -1,0 +1,99 @@
+{
+    "title": "Chicken breast slices with coriander",
+    "hashtags": [
+        "side dish",
+        "homecook",
+        "chicken",
+        "heatwave"
+    ],
+    "ingredients": [
+        {
+            "ingredient": "chicken breast",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "chinese cooking wine",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "marinade"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "white pepper",
+            "type": "marinade"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "salt",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1.5,
+            "unit": "tbsp",
+            "ingredient": "cornstarch",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "minced garlic",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "chopped spring onions",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "sesame seeds",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "chilli powder",
+            "type": "sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "dark vinegar",
+            "type": "sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "oyster sauce",
+            "type": "sauce"
+        },
+        {
+            "ingredient": "coriander",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Thinly slice chicken breast and marinate for 5 minutes.",
+        "Heat up some oil in a pan and fry chicken breast until cook through.",
+        "To make the sauce, put the dry ingredients in a bowl and pour hot oil over it. Then add in the remaining ingredients for the sauce.",
+        "Pour the sauce onto the chicken breast, add some chopped coriander and mix well."
+    ],
+    "originalRecipe": null,
+    "video": "https://www.facebook.com/100054992533616/videos/1359344497847637/?idorvanity=426457915780930"
+}

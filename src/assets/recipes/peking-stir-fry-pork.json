@@ -1,0 +1,119 @@
+{
+    "title": "Peking Stir Fry Pork 京醬肉絲",
+    "hashtags": [
+        "chinese",
+        "restaurant dish",
+        "pork"
+    ],
+    "ingredients": [
+        {
+            "quantity": 450,
+            "unit": "g",
+            "ingredient": "lean pork",
+            "type": null
+        },
+        {
+            "quantity": 5,
+            "unit": "item",
+            "ingredient": "spring onions",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "item",
+            "ingredient": "ginger slices",
+            "type": null
+        },
+        {
+            "quantity": 0.25,
+            "unit": "tsp",
+            "ingredient": "salt",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1.5,
+            "unit": "tsp",
+            "ingredient": "soy sauce",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "chinese cooking wine",
+            "type": "marinade"
+        },
+        {
+            "quantity": 3,
+            "unit": "tbsp",
+            "ingredient": "scallion and ginger liquid",
+            "type": "marinade"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "white pepper",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "egg white",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "cornstarch",
+            "type": "marinade"
+        },
+        {
+            "quantity": 1.5,
+            "unit": "tbsp",
+            "ingredient": "sweet bean sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "dark soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1.5,
+            "unit": "tsp",
+            "ingredient": "soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "sugar",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 0.25,
+            "unit": "cup",
+            "ingredient": "water",
+            "type": "Sauce"
+        },
+        {
+            "ingredient": "duck pancakes/beancurd sheets"
+        },
+        {
+            "ingredient": "cucumber"
+        }
+    ],
+    "steps": [
+        "To make scallion and ginger liquid, chop the top half of the spring onions. Roughly cut up the onion greens and slice some ginger, and rub them in a bowl of water until the water turns green.",
+        "Thinly slice the rest of the green onions and submerge them in a bowl of water.",
+        "Thinly slice the pork and mix with the marinade. Add the cornstach after the meat has absorbed all the liquid.",
+        "In a hot wok, add 3 tbsp oil and stir fry the pork until 90% cooked through. Remove from wok and set aside.",
+        "In a clean wok, add 1 tbsp oil and sweet bean sauce and stir at medium high heat to bring out the fragrance. After 30-60s, add in the remaining sauce.",
+        "Let it bubble for about a minute until the sauce is glossy and thickened.",
+        "Add the pork back in and toss together to coat the pork with the sauce. Stir fry for a minute and plate.",
+        "If used, cut up the beancurd sheets and blanch in hot water for a couple of minutes. Rinse and set aside.",
+        "Drain the spring onions, and serve with the pork, stripped cucumber and duck pancakes or beancurd sheets."
+    ],
+    "originalRecipe": "https://yunsfamilytable.com/recipes/jing-jiang-rou-si/",
+    "video": "https://youtu.be/KRucpkKWwPY"
+}

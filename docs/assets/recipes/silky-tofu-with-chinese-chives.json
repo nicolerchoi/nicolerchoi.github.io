@@ -1,0 +1,68 @@
+{
+    "title": "Silky Tofu with Chinese Chives",
+    "hashtags": [
+        "chinese",
+        "homecook",
+        "vegetarian",
+        "goes well with rice"
+    ],
+    "ingredients": [
+        {
+            "ingredient": "silken/soft tofu",
+            "type": null
+        },
+        {
+            "quantity": 6,
+            "unit": "item",
+            "ingredient": "garlic cloves",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "item",
+            "ingredient": "red chilli",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "oyster sauce",
+            "type": null
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "salt",
+            "type": null
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "chicken essence",
+            "type": null
+        },
+        {
+            "ingredient": "cornstarch water",
+            "type": null
+        },
+        {
+            "ingredient": "chinese chives",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Cut silken tofu into cubes. Cook in salted boiling water for 30s and set aside.",
+        "In a pan with hot oil, add minced garlic and chopped chilli and fry until fragrant.",
+        "Add tofu, soy sauce, oyster sauce, salt and chicken essence. Gently stir and mix.",
+        "Add cornstarch water to thicken the sauce.",
+        "Add chinese chives and cook for about 30s."
+    ],
+    "originalRecipe": null,
+    "video": "https://www.facebook.com/100055736430321/videos/1310864229377207/?idorvanity=636250370947035"
+}

@@ -1,0 +1,80 @@
+{
+    "title": "Chinese leaf and pork belly glass noodles",
+    "hashtags": [
+        "chinese",
+        "homecook",
+        "goes well with rice",
+        "chinese leaf",
+        "pork belly"
+    ],
+    "ingredients": [
+        {
+            "ingredient": "chinese leaf",
+            "type": null
+        },
+        {
+            "ingredient": "pork belly",
+            "type": null
+        },
+        {
+            "ingredient": "spring onions",
+            "type": null
+        },
+        {
+            "ingredient": "ginger",
+            "type": null
+        },
+        {
+            "ingredient": "garlic",
+            "type": null
+        },
+        {
+            "ingredient": "red chilli",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "dark soy sauce",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "oyster sauce",
+            "type": null
+        },
+        {
+            "ingredient": "glass noodles/vermicelli",
+            "type": null
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "salt",
+            "type": null
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "chicken essence",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Chop chinese leaves into chunks. Dice spring onions, ginger, garlic and chilli. Put vermicelli in water to soften them.",
+        "Thinly slice pork belly and fry at medium heat until it releases fat.",
+        "Add spring onions, ginger, garlic and chilli into the pan and fry.",
+        "Add chinese leaves, soy sauce, dark soy sauce and oyster sauce. Stir and fry until the chinese leaves are softened.",
+        "Add glass noodles, salt, chicken essence, and some water into the pan. Mix well and cook at low heat for 5 minutes with lid on.",
+        "When the sauce has reduced, garnish with some spring onions and serve."
+    ],
+    "originalRecipe": null,
+    "video": "https://www.facebook.com/100045914831270/videos/635495617531908/?idorvanity=426457915780930"
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Spicy Cabbage Salad 涼拌高麗菜",
+    "hashtags": [
+        "side dish",
+        "spicy",
+        "homecook",
+        "vegetarian",
+        "cabbage",
+        "heatwave"
+    ],
+    "ingredients": [
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "cabbage",
+            "type": null
+        },
+        {
+            "ingredient": "garlic cloves",
+            "type": "Sauce"
+        },
+        {
+            "ingredient": "chilli powder",
+            "type": "Sauce"
+        },
+        {
+            "ingredient": "chilli flakes",
+            "type": "Sauce"
+        },
+        {
+            "ingredient": "sesame seeds",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "oyster sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "dark vinegar",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "sugar",
+            "type": "Sauce"
+        }
+    ],
+    "steps": [
+        "Cut cabbage in half and remove the root with a triangular cut. Shred the cabbage into chunks by hand and rinse.",
+        "To make the sauce, add all dry ingredients, except sugar, into a bowl and pour hot oil over. Once the sizzling stops, add the remaining ingredients.",
+        "Pour the sauce onto the cabbage and mix well."
+    ],
+    "originalRecipe": null,
+    "video": "https://www.facebook.com/100073672574279/videos/1300554903753844/?idorvanity=1133108927435377"
+}
