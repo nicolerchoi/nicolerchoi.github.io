@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+// @import "primeng/resources/themes/vela-green/theme.css";
+@import "variables/variables";
+@import "primeng/resources/themes/bootstrap4-dark-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
@@ -8,4 +12,71 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    background: $primary;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+        background: $primary-hover;
+        transition: 500ms;
+    }
+
+    &.p-highlight {
+        background: $primary-highlight;
+    }
+
+    i + * {
+        margin-left: 2px;
+    }
+}
+
+button + button {
+    margin-left: 5px;
+}
+
+.p-paginator {
+    justify-content: end;
+}
+
+p-chip {
+    margin-right: 5px;
+    cursor: pointer;
+
+    &:hover {
+        .p-chip {
+            background: $alt-hover;
+            transition: 500ms;
+        }
+    }
+
+    .p-chip.highlight {
+        background-color: $alt-highlight;
+        color: black;
+    }
+}
+
+p-fieldset {
+    legend:hover {
+        background: inherit;
+    }
+}
+
+p-paginator {
+    .p-paginator-current {
+        border: 0;
+        color: white;
+    }
+
+    .p-paginator-pages {
+        display: flex;
+        margin: 0 5px;
+    }
 }

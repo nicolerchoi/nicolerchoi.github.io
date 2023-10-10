@@ -1,22 +1,41 @@
-.header {
-    margin-bottom: 10px;
+@import "variables/variables";
 
-    h1 {
-        margin-bottom: 0;
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    p-chip {
+        cursor: default;
+
+        &:hover .p-chip {
+            background: $alt;
+        }
+    }
+
+    .tools {
+        display: flex;
     }
 }
 
-.multiplier {    
+.tab-header-icon + span {
+    margin-left: 5px;
+}
+
+.multiplier {
     display: flex;
-    align-items: center;
-    background-color: #e0e0e0;
-    border-radius: 4px;
-}
 
-.hashtag-chips {
-    margin-bottom: 10px;
-}
+    input {
+        width: 50px;
+        padding-left: 5px;
+    }
 
-h4 {
-    text-transform: capitalize;
+    input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    button {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
 }

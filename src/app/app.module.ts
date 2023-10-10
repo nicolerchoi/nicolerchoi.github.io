@@ -10,50 +10,41 @@ import { RecipeComponent } from './components/recipe/recipe.component';
 import { RecipeFormComponent } from './components/recipe-form/recipe-form.component';
 
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { MatTableModule } from '@angular/material/table';
-import { MatButtonModule } from '@angular/material/button';
-import { MatExpansionModule } from '@angular/material/expansion';
-import { MatChipsModule } from '@angular/material/chips';
-import { MatIconModule } from '@angular/material/icon';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
-import { MatSelectModule } from '@angular/material/select';
-import { MatCardModule } from '@angular/material/card';
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { DragDropModule } from '@angular/cdk/drag-drop';
+import { RecipesComponent } from './components/recipes/recipes.component';
 
-const material = [
-    MatTableModule,
-    MatButtonModule,
-    MatExpansionModule,
-    MatChipsModule,
-    MatIconModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatSelectModule,
-    MatCardModule,
-    MatPaginatorModule,
-    DragDropModule
+import { ChipModule } from 'primeng/chip';
+import { FieldsetModule } from 'primeng/fieldset';
+import { MenubarModule } from 'primeng/menubar';
+import { TableModule } from 'primeng/table';
+import { TabViewModule } from 'primeng/tabview';
+
+const primeng = [
+    ChipModule,
+    FieldsetModule,
+    MenubarModule,
+    TableModule,
+    TabViewModule
 ];
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    RecipesListComponent,
-    RecipeComponent,
-    RecipeFormComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    CommonModule,
-    AppRoutingModule,
-    HttpClientModule,
-    ReactiveFormsModule,
-    FormsModule,
-    ...material
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        RecipesComponent,
+        RecipesListComponent,
+        RecipeComponent,
+        RecipeFormComponent
+    ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        CommonModule,
+        AppRoutingModule,
+        HttpClientModule,
+        ReactiveFormsModule,
+        FormsModule,
+        ...primeng
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

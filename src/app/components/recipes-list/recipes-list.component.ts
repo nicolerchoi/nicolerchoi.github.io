@@ -1,10 +1,5 @@
-import { ChangeDetectionStrategy, ViewChild, ChangeDetectorRef, AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
-import { Recipe, RecipeDetail, RecipesService } from '../../services/recipes.service';
-import { EMPTY, Observable, Subscription } from 'rxjs';
-import { ActivatedRoute, Router } from '@angular/router';
-import { MatPaginator } from '@angular/material/paginator';
-import { MatSort } from '@angular/material/sort';
-import { MatTableDataSource } from '@angular/material/table';
+import { ChangeDetectionStrategy, OnChanges, Component, Input, SimpleChanges, ChangeDetectorRef, ViewChild, ElementRef } from '@angular/core';
+import { Recipe, RecipeDetail, RecipesService } from 'src/app/services/recipes.service';
 
 @Component({
     selector: 'recipes-list',
@@ -12,34 +7,34 @@ import { MatTableDataSource } from '@angular/material/table';
     styleUrls: ['./recipes-list.component.scss'],
     changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class RecipesListComponent implements OnInit, AfterViewInit {
+export class RecipesListComponent implements OnChanges {
 
-    @ViewChild(MatPaginator) paginator!: MatPaginator;
-    @ViewChild(MatSort) sort!: MatSort;
+    @ViewChild('recipeFieldSet') recipeFieldSet!: ElementRef;
+    @Input() recipes: Recipe[] = [];
 
-    recipes: Recipe[] = [];
-    dataSource: MatTableDataSource<Recipe>;
+    filteredRecipes: Recipe[] = [];
+
+    first = 0;
+    selectedRecipeId?: string;
+    selectedRecipe?: RecipeDetail;
 
     hashtags: string[] = [];
 
-    displayedColumns: string[] = ['title', 'hashtags'];
+    constructor(private recipesService: RecipesService, private cd: ChangeDetectorRef) { }
 
-    constructor(
-        private recipesService: RecipesService,
-        private route: ActivatedRoute
-    ) {
-        this.dataSource = new MatTableDataSource(this.recipes);
+    ngOnChanges(changes: SimpleChanges): void {
+        if ('recipes' in changes) {
+            this.filteredRecipes = this.filteredDataByHashtags();
+        }
     }
 
-    ngOnInit(): void {
-        const queryHashtag = this.route.snapshot.queryParams['hashtag'];
-        this.hashtags = queryHashtag ? [queryHashtag] : [];
-
-        this.recipesService.getAllRecipes().subscribe(
+    selectRecipe(recipeId: string): void {
+        this.recipesService.getRecipe(recipeId).subscribe(
             result => {
-                this.recipes = result;
-                this.dataSource.data = result;
-                this.dataSource.data = this.filteredDataByHashtags();
+                this.selectedRecipeId = recipeId;
+                this.selectedRecipe = result;
+                this.recipeFieldSet.nativeElement.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+                this.cd.markForCheck();
             },
             error => {
                 console.log('Cannot get recipe list', error)
@@ -47,34 +42,32 @@ export class RecipesListComponent implements OnInit, AfterViewInit {
         )
     }
 
-    ngAfterViewInit() {
-        this.dataSource.paginator = this.paginator;
-        this.dataSource.sort = this.sort;
-    }
+    pickRandom(): void {
+        const random = Math.floor(Math.random() * this.filteredRecipes.length);
+        const pageNumber = Math.ceil((random + 1) / 10);
+        this.first = (pageNumber - 1) * 10;
 
-    onRemoveHashtagFilter(hashtag: string): void {
-        const index = this.hashtags.indexOf(hashtag);
-
-        if (index >= 0) {
-            this.hashtags.splice(index, 1);
-            this.dataSource.data = this.filteredDataByHashtags();
-        }
-    }
-
-    applyFilter(event: Event) {
-        const filterValue = (event.target as HTMLInputElement).value;
-        this.dataSource.filter = filterValue.trim().toLowerCase();
-    
-        if (this.dataSource.paginator) {
-            this.dataSource.paginator.firstPage();
-        }
+        this.selectRecipe(this.filteredRecipes[random].id);
     }
 
     onClickHashtag(hashtag: string): void {
         if (!this.hashtags.includes(hashtag)) {
             this.hashtags.push(hashtag);
-            this.dataSource.data = this.filteredDataByHashtags();
+            this.filteredRecipes = this.filteredDataByHashtags();
         }
+    }
+    
+    onRemoveHashtagFilter(hashtag: string): void {
+        const index = this.hashtags.indexOf(hashtag);
+
+        if (index >= 0) {
+            this.hashtags.splice(index, 1);
+            this.filteredRecipes = this.filteredDataByHashtags();
+        }
+    }
+
+    selectedHashtag(tag: string): boolean {
+        return this.hashtags.includes(tag);
     }
 
     filteredDataByHashtags(): Recipe[] {

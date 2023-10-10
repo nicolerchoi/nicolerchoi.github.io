@@ -1,8 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, FormControl, Validators } from '@angular/forms';
-import { MatChipInputEvent } from '@angular/material/chips';
 import { Ingredient, QuantifiedIngredient, RecipeDetail, UNIT, UnquantifiedIngredient } from 'src/app/services/recipes.service';
-import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 
 @Component({
   selector: 'app-recipe-form',
@@ -52,7 +50,7 @@ export class RecipeFormComponent implements OnInit {
         return this.form.get('ingredients') as FormArray;
     }
 
-    addHashtag(event: MatChipInputEvent): void {
+    addHashtag(event: any): void {
         if (event.value) {
             this.hashtagsControl.value.push(event.value);
             event.chipInput!.clear();
@@ -63,11 +61,11 @@ export class RecipeFormComponent implements OnInit {
         this.hashtagsControl.value.splice(index, 1);
     }
 
-    onDropIngredient(event: CdkDragDrop<Ingredient[]>): void {
-        if (event.previousContainer === event.container) {
-            moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
-        }
-    }
+    // onDropIngredient(event: CdkDragDrop<Ingredient[]>): void {
+    //     if (event.previousContainer === event.container) {
+    //         moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
+    //     }
+    // }
 
     onDeleteIngredient(index: number): void {
         this.ingredientsArray.splice(index, 1);

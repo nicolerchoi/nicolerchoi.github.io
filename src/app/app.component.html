@@ -1,9 +1,13 @@
-<div #navBar class="nav">
-    <button mat-button [routerLink]="['/recipes']">Recipes</button>
+<!-- <div #navBar>
+    <p-menubar [model]="items"></p-menubar>
 </div>
 
-<div class="content" [style.height]="'calc(100% - ' + navBar.offsetHeight + 'px'">
+<div class="content" [style.height]="'calc(100% - ' + navBar.offsetHeight + 'px)'">
     <div class="outlet">
         <router-outlet></router-outlet>
     </div>
+</div> -->
+
+<div class="outlet">
+    <router-outlet></router-outlet>
 </div>

@@ -1,24 +1,22 @@
-.header {
-    margin-bottom: 10px;
+@import "variables/variables";
 
-    h1 {
-        margin-bottom: 0;
+.table-caption {
+    display: flex;
+    justify-content: space-between;
+
+    .tools {
+        display: flex;
     }
 }
 
-.mat-form-field {
-    font-size: 14px;
-    width: 100%;
-}
-
-table {
-    width: 100%
-}
-
-tr:hover {
-    background: whitesmoke;
-}
-
-td.recipe-cell {
+tr.recipe-row {
     cursor: pointer;
+
+    &.selected {
+        background-color: $primary;
+    }
+}
+
+.selected-recipe {
+    margin-top: 10px;
 }
