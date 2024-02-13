@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 // @import "primeng/resources/themes/vela-green/theme.css";
 @import "variables/variables";
-@import "primeng/resources/themes/bootstrap4-dark-blue/theme.css";
+@import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 
 
@@ -60,12 +60,6 @@ p-chip {
     .p-chip.highlight {
         background-color: $alt-highlight;
         color: black;
-    }
-}
-
-p-fieldset {
-    legend:hover {
-        background: inherit;
     }
 }
 

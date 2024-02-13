@@ -6,6 +6,24 @@
 
     .tools {
         display: flex;
+
+        * > * {
+            margin-left: 5px;
+        }
+
+        span.p-input-icon-left.ml-auto {
+            i {
+                margin: -11px 0 0 0;
+            }
+
+            input {
+                padding-left: 30px;
+
+                &::placeholder {
+                    font-size: 13px;
+                }
+            }
+        }
     }
 }
 
@@ -17,6 +35,3 @@ tr.recipe-row {
     }
 }
 
-.selected-recipe {
-    margin-top: 10px;
-}

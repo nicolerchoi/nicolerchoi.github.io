@@ -4,19 +4,19 @@ import { RecipeFormComponent } from './components/recipe-form/recipe-form.compon
 import { RecipesComponent } from './components/recipes/recipes.component';
 
 const routes: Routes = [
+    // {
+    //     path: '',
+    //     redirectTo: 'recipes',
+    //     pathMatch: 'full'
+    // },
     {
         path: '',
-        redirectTo: 'recipes',
-        pathMatch: 'full'
-    },
-    {
-        path: 'recipes',
         component: RecipesComponent
     },
-    {
-        path: 'new-recipe',
-        component: RecipeFormComponent
-    }
+    // {
+    //     path: 'new-recipe',
+    //     component: RecipeFormComponent
+    // }
 ];
 
 @NgModule({

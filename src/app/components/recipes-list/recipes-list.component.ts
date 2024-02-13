@@ -9,10 +9,12 @@ import { Recipe, RecipeDetail, RecipesService } from 'src/app/services/recipes.s
 })
 export class RecipesListComponent implements OnChanges {
 
-    @ViewChild('recipeFieldSet') recipeFieldSet!: ElementRef;
     @Input() recipes: Recipe[] = [];
 
     filteredRecipes: Recipe[] = [];
+
+    activeIndex: number = 0;
+    recipeTabs: Recipe[] = [];
 
     first = 0;
     selectedRecipeId?: string;
@@ -28,12 +30,33 @@ export class RecipesListComponent implements OnChanges {
         }
     }
 
-    selectRecipe(recipeId: string): void {
-        this.recipesService.getRecipe(recipeId).subscribe(
+    onCloseTab(index: number): void {
+        this.recipeTabs.splice(index - 1, 1);
+    }
+
+    onChangeTab(index: number): void {
+        if (index > 0) {
+            this.getRecipe(this.recipeTabs[index - 1].id);
+        }
+    }
+
+    selectRecipe(recipe: Recipe): void {
+        const recipeIndex = this.recipeTabs.findIndex(tab => tab.id === recipe.id);
+        if (recipeIndex < 0) {
+            this.recipeTabs.push(recipe);
+            this.cd.detectChanges();
+            this.activeIndex = this.recipeTabs.length;
+        } else {
+            this.activeIndex = recipeIndex + 1; // first index is table
+        }
+        this.getRecipe(recipe.id);
+    }
+
+    getRecipe(id: string): void {
+        this.recipesService.getRecipe(id).subscribe(
             result => {
-                this.selectedRecipeId = recipeId;
+                this.selectedRecipeId = id;
                 this.selectedRecipe = result;
-                this.recipeFieldSet.nativeElement.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
                 this.cd.markForCheck();
             },
             error => {
@@ -47,7 +70,7 @@ export class RecipesListComponent implements OnChanges {
         const pageNumber = Math.ceil((random + 1) / 10);
         this.first = (pageNumber - 1) * 10;
 
-        this.selectRecipe(this.filteredRecipes[random].id);
+        this.selectRecipe(this.filteredRecipes[random]);
     }
 
     onClickHashtag(hashtag: string): void {

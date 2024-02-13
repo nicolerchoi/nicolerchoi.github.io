@@ -13,14 +13,14 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RecipesComponent } from './components/recipes/recipes.component';
 
 import { ChipModule } from 'primeng/chip';
-import { FieldsetModule } from 'primeng/fieldset';
 import { MenubarModule } from 'primeng/menubar';
 import { TableModule } from 'primeng/table';
 import { TabViewModule } from 'primeng/tabview';
+import { InputTextModule } from 'primeng/inputtext';
 
 const primeng = [
     ChipModule,
-    FieldsetModule,
+    InputTextModule,
     MenubarModule,
     TableModule,
     TabViewModule
