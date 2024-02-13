@@ -12,6 +12,7 @@ import { RecipeFormComponent } from './components/recipe-form/recipe-form.compon
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RecipesComponent } from './components/recipes/recipes.component';
 
+import { ButtonModule } from 'primeng/button';
 import { ChipModule } from 'primeng/chip';
 import { MenubarModule } from 'primeng/menubar';
 import { TableModule } from 'primeng/table';
@@ -19,6 +20,7 @@ import { TabViewModule } from 'primeng/tabview';
 import { InputTextModule } from 'primeng/inputtext';
 
 const primeng = [
+    ButtonModule,
     ChipModule,
     InputTextModule,
     MenubarModule,

@@ -34,7 +34,7 @@
         margin: 0;
     }
 
-    button {
+    p-button ::ng-deep button {
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
     }

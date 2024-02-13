@@ -1,0 +1,111 @@
+{
+    "title": "Mapo Tofu",
+    "hashtags": [
+        "chinese",
+        "homecook",
+        "minced beef",
+        "tofu",
+        "goes well with rice"
+],
+    "ingredients": [
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "Sichuan peppercorns",
+            "type": null
+        },
+        {
+            "quantity": 350,
+            "unit": "g",
+            "ingredient": "tofu",
+            "type": null
+        },
+        {
+            "quantity": 150,
+            "unit": "g",
+            "ingredient": "minced beef",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "black pepper",
+            "type": null
+        },
+        {
+            "ingredient": "peppercorn oil 花椒油",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "spicy bean paste 辣豆瓣醬",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "minced ginger",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "minced garlic",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "chopped fermented black beans 豆豉",
+            "type": null
+        },
+        {
+            "quantity": 1.5,
+            "unit": "cup",
+            "ingredient": "chicken stock (or water with chicken essence)",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "dark soy sauce",
+            "type": null
+        },
+        {
+            "ingredient": "sugar",
+            "type": null
+        },
+        {
+            "ingredient": "chilli oil",
+            "type": null
+        },
+        {
+            "ingredient": "cornstarch solution",
+            "type": null
+        },
+        {
+            "ingredient": "chopped spring onions",
+            "type": null
+        },
+        {
+            "ingredient": "sesame oil",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Toast Sichuan peppercorns under low heat until fragrant. Then remove from pan and crush them up for garnish later.",
+        "Cut tofu into big cubes. Simmer in boiling water for a couple of minutes to remove the smell. Then drain the water.",
+        "Stir fry the minced beef over medium heat for 3-4 minutes. When it just turns brown, add black pepper and stir. Set aside when the beef is cooked.",
+        "Add peppercorn oil, spicy bean paste, minced ginger and garlic to the pan. Stir fry for 1 minute.",
+        "Add fermented black beans and continue to stir fry until the spicy bean paste releases the red oil.",
+        "Add in the beef and mix well.",
+        "Add chicken stock and dark soy sauce.",
+        "When the sauce starts to simmer, add in the tofu. Cook at low heat for 3 minutes.",
+        "Add sugar and chilli oil to taste. Add cornstarch solution to thicken up the sauce.",
+        "Add spring onions and sichuan peppercorns and cook for 30 seconds.",
+        "Add a dash of sesame oil and serve."
+    ],
+    "originalRecipe": "https://youtu.be/iBnsbChhTqg?si=4oxeon4X6J2fBWs7",
+    "video": "https://youtu.be/eJ6svyVvEBE?si=cbGvljGwRAsJ0buy"
+}

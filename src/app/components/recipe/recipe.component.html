@@ -4,12 +4,12 @@
     </div>
 
     <div class="tools">
-        <button *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)">
+        <p-button *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)">
             <i class="material-symbols-outlined">article</i> <span>Original Recipe</span>
-        </button>
-        <button *ngIf="recipe.video" (click)="onClickLink(recipe.video)">
+        </p-button>
+        <p-button *ngIf="recipe.video" (click)="onClickLink(recipe.video)">
             <i class="material-symbols-outlined">smart_display</i> <span>Video</span>
-        </button>
+        </p-button>
     </div>
 </div>
 
@@ -24,9 +24,9 @@
 
         <div class="multiplier">
             <input type="number" [(ngModel)]="multiplier" placeholder="Enter a multiplier">
-            <button (click)="multiplier = 1">
+            <p-button (click)="multiplier = 1">
                 <i class="material-symbols-outlined">restart_alt</i>
-            </button>
+            </p-button>
         </div>
 
         <div *ngFor="let group of ingredients">

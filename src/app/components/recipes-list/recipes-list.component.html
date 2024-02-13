@@ -27,12 +27,13 @@
                     <!-- <button [routerLink]="['../new-recipe']">
                         <i class="material-symbols-outlined">add</i>
                     </button> -->
-                    <button (click)="pickRandom()">
+                    <p-button>
                         <i class="material-symbols-outlined">how_to_vote</i> <span>Random picker</span>
-                    </button>
+                    </p-button>
                     <span class="p-input-icon-left ml-auto">
                         <i class="material-symbols-outlined tab-header-icon">search</i>
                         <input #search pInputText type="text" (input)="recipeTable.filterGlobal(search.value, 'contains')" placeholder="Search recipe" />
+                        <i class="material-symbols-outlined tab-header-icon close" (click)="recipeTable.filterGlobal('', 'contains'); search.value = ''">close</i>
                     </span>
                 </div>
             </div>
@@ -46,7 +47,6 @@
         </ng-template>
 
         <ng-template pTemplate="body" let-recipe>
-            <!-- <tr class="recipe-row" [class.selected]="selectedRecipeId === recipe.id" (click)="selectRecipe(recipe)"> -->
             <tr class="recipe-row" (click)="selectRecipe(recipe)">
                 <td>{{ recipe.title }}</td>
                 <td>

@@ -38,7 +38,7 @@
             "hong kong",
             "creamy",
             "saucey",
-            "perfect with rice"
+            "goes well with rice"
         ]
     },
     {
@@ -122,6 +122,17 @@
         "id": "lettuce-with-fermented-bean-curd",
         "title": "Lettuce with Fermented Bean Curd 椒絲腐乳西生菜",
         "hashtags": ["vegetarian", "homecook", "chinese"]
+    },
+    {
+        "id": "mapo-tofu",
+        "title": "Mapo Tofu",
+        "hashtags": [
+            "chinese",
+            "homecook",
+            "minced beef",
+            "tofu",
+            "goes well with rice"
+        ]
     },
     {
         "id": "minced-pork-and-green-beans-lo-meen",

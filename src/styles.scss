@@ -14,30 +14,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     justify-content: space-between;
 }
 
-button {
-    display: flex;
-    align-items: center;
-    background: $primary;
-    border: 0;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: white;
-
-    &:hover {
-        cursor: pointer;
-        background: $primary-hover;
-        transition: 500ms;
-    }
-
-    &.p-highlight {
-        background: $primary-highlight;
-    }
-
-    i + * {
-        margin-left: 2px;
-    }
-}
-
 button + button {
     margin-left: 5px;
 }
@@ -55,22 +31,5 @@ p-chip {
             background: $alt-hover;
             transition: 500ms;
         }
-    }
-
-    .p-chip.highlight {
-        background-color: $alt-highlight;
-        color: black;
-    }
-}
-
-p-paginator {
-    .p-paginator-current {
-        border: 0;
-        color: white;
-    }
-
-    .p-paginator-pages {
-        display: flex;
-        margin: 0 5px;
     }
 }
