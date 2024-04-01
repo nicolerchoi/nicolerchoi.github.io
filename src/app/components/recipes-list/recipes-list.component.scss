@@ -35,5 +35,10 @@
 
 tr.recipe-row {
     cursor: pointer;
+
+    &.highlight {
+        background: #3B82F6;
+        color: white;
+    }
 }
 

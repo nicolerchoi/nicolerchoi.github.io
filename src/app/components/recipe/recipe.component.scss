@@ -4,16 +4,37 @@
     display: flex;
     justify-content: space-between;
 
-    p-chip {
-        cursor: default;
-
-        &:hover .p-chip {
-            background: $alt;
-        }
+    span.material-symbols-outlined:hover {
+        cursor: pointer;
     }
 
-    .tools {
-        display: flex;
+    // p-chip {
+    //     cursor: default;
+
+    //     &:hover .p-chip {
+    //         background: $alt;
+    //     }
+    // }
+
+    // .tools {
+    //     display: flex;
+    // }
+}
+
+p-chip {
+    cursor: default;
+
+    // &:hover .p-chip {
+    //     background: $alt;
+    // }
+}
+
+.tools {
+    display: flex;
+    margin-top: 5px;
+
+    p-button + p-button {
+        margin-left: 5px;
     }
 }
 

@@ -1,5 +1,7 @@
 <div class="header">
-    <div>
+    <h1>{{ recipe.title }}</h1>
+    <span class="material-symbols-outlined" (click)="onClose()">close</span>
+    <!-- <div>
         <p-chip *ngFor="let tag of recipe.hashtags" [label]="tag"></p-chip>
     </div>
 
@@ -10,10 +12,22 @@
         <p-button *ngIf="recipe.video" (click)="onClickLink(recipe.video)">
             <i class="material-symbols-outlined">smart_display</i> <span>Video</span>
         </p-button>
-    </div>
+    </div> -->
 </div>
 
-<h1>{{ recipe.title }}</h1>
+<div>
+    <p-chip *ngFor="let tag of recipe.hashtags" [label]="tag"></p-chip>
+</div>
+
+<div class="tools">
+    <p-button *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)">
+        <i class="material-symbols-outlined">article</i> <span>Original Recipe</span>
+    </p-button>
+    <p-button *ngIf="recipe.video" (click)="onClickLink(recipe.video)">
+        <i class="material-symbols-outlined">smart_display</i> <span>Video</span>
+    </p-button>
+</div>
+<!-- <h1>{{ recipe.title }}</h1> -->
 
 <p-tabView>
     <p-tabPanel header="Ingredients">

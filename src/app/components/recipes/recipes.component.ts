@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { RecipesService, Recipe } from '../../services/recipes.service';
+import { RecipesService, Recipe, RecipeDetail } from '../../services/recipes.service';
 
 @Component({
     selector: 'recipes',
@@ -10,6 +10,8 @@ import { RecipesService, Recipe } from '../../services/recipes.service';
 export class RecipesComponent implements OnInit {
 
     recipes: Recipe[] = [];
+    selectedRecipeId?: string;
+    selectedRecipe?: RecipeDetail;
 
     constructor(
         private recipesService: RecipesService,
@@ -26,5 +28,23 @@ export class RecipesComponent implements OnInit {
                 console.log('Cannot get recipe list', error)
             }
         )
+    }
+
+    onSelectRecipe(recipeId: string): void {
+        this.recipesService.getRecipe(recipeId).subscribe(
+            result => {
+                this.selectedRecipeId = recipeId;
+                this.selectedRecipe = result;
+                this.cd.markForCheck();
+            },
+            error => {
+                console.log('Cannot get recipe list', error)
+            }
+        )
+    }
+
+    onClose(): void {
+        this.selectedRecipeId = undefined;
+        this.selectedRecipe = undefined;
     }
 }

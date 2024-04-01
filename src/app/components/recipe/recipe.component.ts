@@ -1,4 +1,4 @@
-import { Component, Input, SimpleChanges, OnChanges, ChangeDetectionStrategy } from '@angular/core';
+import { Component, Input, SimpleChanges, OnChanges, ChangeDetectionStrategy, Output, EventEmitter } from '@angular/core';
 import { RecipeDetail, Ingredient } from 'src/app/services/recipes.service';
 
 @Component({
@@ -10,6 +10,8 @@ import { RecipeDetail, Ingredient } from 'src/app/services/recipes.service';
 export class RecipeComponent implements OnChanges {
 
     @Input() recipe!: RecipeDetail;
+
+    @Output() close: EventEmitter<void> = new EventEmitter();
 
     multiplier: number = 1;
 
@@ -29,6 +31,10 @@ export class RecipeComponent implements OnChanges {
                 .map(([section, ingredients]) => ({ section, ingredients }))
                 .sort((a, b) => a.section === 'main' ? -1 : b.section === 'main' ? 1 : 0 );
         }
+    }
+
+    onClose(): void {
+        this.close.emit();
     }
 
     onClickLink(link: string): void {

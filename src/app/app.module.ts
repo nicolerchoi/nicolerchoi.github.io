@@ -12,6 +12,8 @@ import { RecipeFormComponent } from './components/recipe-form/recipe-form.compon
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RecipesComponent } from './components/recipes/recipes.component';
 
+import { AngularSplitModule } from 'angular-split';
+
 import { ButtonModule } from 'primeng/button';
 import { ChipModule } from 'primeng/chip';
 import { MenubarModule } from 'primeng/menubar';
@@ -37,6 +39,7 @@ const primeng = [
         RecipeFormComponent
     ],
     imports: [
+        AngularSplitModule,
         BrowserModule,
         BrowserAnimationsModule,
         CommonModule,

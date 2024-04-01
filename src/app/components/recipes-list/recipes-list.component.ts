@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, OnChanges, Component, Input, SimpleChanges, ChangeDetectorRef, ViewChild, ElementRef } from '@angular/core';
+import { ChangeDetectionStrategy, OnChanges, Component, Input, SimpleChanges, ChangeDetectorRef, ViewChild, ElementRef, EventEmitter, Output } from '@angular/core';
+import { TableFilterEvent } from 'primeng/table';
 import { Recipe, RecipeDetail, RecipesService } from 'src/app/services/recipes.service';
 
 @Component({
@@ -10,6 +11,9 @@ import { Recipe, RecipeDetail, RecipesService } from 'src/app/services/recipes.s
 export class RecipesListComponent implements OnChanges {
 
     @Input() recipes: Recipe[] = [];
+    @Input() selectedRecipeId?: string;
+
+    @Output() select: EventEmitter<string> = new EventEmitter();
 
     filteredRecipes: Recipe[] = [];
 
@@ -17,7 +21,7 @@ export class RecipesListComponent implements OnChanges {
     recipeTabs: Recipe[] = [];
 
     first = 0;
-    selectedRecipeId?: string;
+    // selectedRecipeId?: string;
     selectedRecipe?: RecipeDetail;
 
     hashtags: string[] = [];
@@ -30,39 +34,49 @@ export class RecipesListComponent implements OnChanges {
         }
     }
 
-    onCloseTab(index: number): void {
-        this.recipeTabs.splice(index - 1, 1);
-    }
+    // onCloseTab(index: number): void {
+    //     this.recipeTabs.splice(index - 1, 1);
+    // }
 
-    onChangeTab(index: number): void {
-        if (index > 0) {
-            this.getRecipe(this.recipeTabs[index - 1].id);
-        }
-    }
+    // onChangeTab(index: number): void {
+    //     if (index > 0) {
+    //         this.getRecipe(this.recipeTabs[index - 1].id);
+    //     }
+    // }
 
     selectRecipe(recipe: Recipe): void {
-        const recipeIndex = this.recipeTabs.findIndex(tab => tab.id === recipe.id);
-        if (recipeIndex < 0) {
-            this.recipeTabs.push(recipe);
-            this.cd.detectChanges();
-            this.activeIndex = this.recipeTabs.length;
-        } else {
-            this.activeIndex = recipeIndex + 1; // first index is table
-        }
-        this.getRecipe(recipe.id);
+        // const recipeIndex = this.recipeTabs.findIndex(tab => tab.id === recipe.id);
+        // if (recipeIndex < 0) {
+        //     this.recipeTabs.push(recipe);
+        //     this.cd.detectChanges();
+        //     this.activeIndex = this.recipeTabs.length;
+        // } else {
+        //     this.activeIndex = recipeIndex + 1; // first index is table
+        // }
+        // this.getRecipe(recipe.id);
+        this.select.emit(recipe.id);
     }
 
-    getRecipe(id: string): void {
-        this.recipesService.getRecipe(id).subscribe(
-            result => {
-                this.selectedRecipeId = id;
-                this.selectedRecipe = result;
-                this.cd.markForCheck();
-            },
-            error => {
-                console.log('Cannot get recipe list', error)
-            }
-        )
+    // getRecipe(id: string): void {
+    //     this.recipesService.getRecipe(id).subscribe(
+    //         result => {
+    //             // this.selectedRecipeId = id;
+    //             this.selectedRecipe = result;
+    //             this.cd.markForCheck();
+    //         },
+    //         error => {
+    //             console.log('Cannot get recipe list', error)
+    //         }
+    //     )
+    // }
+
+    onFilter(event: TableFilterEvent): void {
+        console.log(event);
+        const recipeIndex = (event.filteredValue as Recipe[]).findIndex(r => r.id === this.selectedRecipeId);
+        if (recipeIndex >= 0) {
+            const pageNumber = Math.ceil((recipeIndex + 1) / 10);
+            this.first = (pageNumber - 1) * 10;
+        }
     }
 
     pickRandom(): void {
