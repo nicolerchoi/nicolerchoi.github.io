@@ -1,5 +1,5 @@
 <div *ngIf="recipe">
-    <img src="assets/photos/chinese-cabbage-tofu-minced-pork-soup.jpeg" [alt]="recipe.title"/>
+    <img [src]="'assets/photos/' + recipeId + '.jpeg'" [alt]="recipe.title"/>
 
     <h2>{{ recipe.title }}</h2>
 
@@ -22,7 +22,7 @@
             </ng-template>
 
             <div *ngFor="let group of ingredients">
-                <h4 *ngIf="group.section !== 'main'">{{ group.section }}</h4>
+                <h4 *ngIf="group.section !== 'main'">{{ group.section | titlecase }}</h4>
                 <ul>
                     <li *ngFor="let item of group.ingredients">
                         <span *ngIf="item.quantity">

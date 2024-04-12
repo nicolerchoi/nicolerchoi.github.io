@@ -33,6 +33,13 @@
         ]
     },
     {
+        "id": "braised-broccoli-with-three-mushrooms",
+        "title": "Braised Broccoli with three Mushrooms",
+        "cuisines": ["chinese"],
+        "hashtags": ["quick", "vegetarian", "goes well with rice"],
+        "ingredients": ["broccoli", "carrot", "mushroom"]
+    },
+    {
         "id": "braised-chicken-with-scallion-oil",
         "title": "Braised chicken with scallion oil 蔥油燜雞",
         "cuisines": ["asian", "chinese"],

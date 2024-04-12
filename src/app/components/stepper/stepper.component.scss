@@ -56,10 +56,12 @@ div.step {
         border-radius: 100%;
         border: none;
         cursor: pointer;
+        transition: all 0.3s ease;
     }
 
     .step-details {
         color: #adb5bd;
+        transition: all 0.3s ease;
     }
 }
 

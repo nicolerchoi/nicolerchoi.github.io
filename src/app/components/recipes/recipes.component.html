@@ -13,7 +13,7 @@
         </div>
     </p-overlayPanel>
     <p-button (click)="pickRandom(op, $event)">
-        <i class="material-symbols-outlined">how_to_vote</i> <span>Random picker</span>
+        <i class="material-symbols-outlined">how_to_vote</i> <span>Pick a recipe for me</span>
     </p-button>    
 </div>
 
@@ -47,8 +47,8 @@
         placeholder="Select categories"
     ></p-multiSelect>
 
-    <div *ngIf="selectedHashtags?.length" class="carousel">
-        <div class="card" *ngFor="let recipe of hashtagRecipes">
+    <div class="carousel">
+        <div class="card" *ngFor="let recipe of (selectedHashtags?.length ? hashtagRecipes : recipes)">
             <ng-container *ngTemplateOutlet="recipeCard; context: { $implicit: recipe }"></ng-container>
         </div>
     </div>
@@ -56,20 +56,8 @@
 
 <ng-template #recipeCard let-recipe>
     <div class="recipe-card" (click)="navigateToRecipePage(recipe)">
-        <img src="assets/photos/chinese-cabbage-tofu-minced-pork-soup.jpeg" [alt]="recipe.title"/>
+        <img [src]="'assets/photos/' + recipe.id + '.jpeg'" [alt]="recipe.title"/>
         <h4>{{ recipe.title }}</h4>
         <p-tag *ngFor="let tag of recipe.hashtags" [value]="tag" severity="info"></p-tag>
     </div>
 </ng-template>
-
-<!-- <div style="width: 100%; height: 100%;">
-    style="width: 100%; height: 500px;">
-    <as-split direction="horizontal" [useTransition]="true">
-        <as-split-area [size]="60">
-            <recipes-list [recipes]="recipes" [selectedRecipeId]="selectedRecipeId" (select)="onSelectRecipe($event)"></recipes-list>
-        </as-split-area>
-        <as-split-area [size]="40" [visible]="!!selectedRecipe">
-            <app-recipe *ngIf="selectedRecipe" [recipe]="selectedRecipe" (close)="onClose()"></app-recipe>
-        </as-split-area>
-    </as-split>
-</div> -->

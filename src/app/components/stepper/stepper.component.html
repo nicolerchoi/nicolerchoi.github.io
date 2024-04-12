@@ -4,8 +4,9 @@
         active: active === i,
         small: i === active - 1 || i === active + 1,
         xsmall: i < active - 1 || i > active + 1
-    }">
-    <button class="step-button" (click)="active = i">{{ i + 1 }}</button>
+    }"
+    (click)="active = i">
+    <button class="step-button">{{ i + 1 }}</button>
     <div class="step-details">
         <p *ngFor="let substep of splitSteps(step); last as lastSub">{{ substep }}{{ lastSub ? '' : '.' }}</p>
     </div>
