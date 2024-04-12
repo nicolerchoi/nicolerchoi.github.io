@@ -1,0 +1,70 @@
+@use "sass:math";
+@import "variables/variables";
+
+$step-button-size: 30px;
+$small: 0.85;
+$xsmall: 0.7;
+
+div.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &.active {
+        button.step-button {
+            background-color: #3B82F6;
+        }
+
+        .step-details {
+            color: unset;
+        }
+    }
+
+    &.small {
+        button.step-button {
+            width: $step-button-size * $small;
+            height: $step-button-size * $small;
+        }
+
+        button.step-button, .step-details {
+            font-size: 16px * $small;
+        }
+    }
+
+    &.xsmall {
+        button.step-button {
+            width: $step-button-size * $xsmall;
+            height: $step-button-size * $xsmall;
+        }
+
+        button.step-button, .step-details {
+            font-size: 16px * $xsmall;
+        }
+    }
+
+    button.step-button {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: $step-button-size;
+        height: $step-button-size;
+        
+        background-color: #adb5bd;
+        color: white;
+        border-radius: 100%;
+        border: none;
+        cursor: pointer;
+    }
+
+    .step-details {
+        color: #adb5bd;
+    }
+}
+
+div.link {
+    margin-bottom: 10px;
+    border-left: 1px solid #dee2e6;
+    height: 20px;
+}

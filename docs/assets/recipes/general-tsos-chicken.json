@@ -1,47 +1,56 @@
 {
     "title": "General Tso's Chicken 左宗棠雞",
     "hashtags": [
-        "chinese",
-        "homecook",
-        "chicken",
-        "restaurant dish"
+        "goes well with rice"
     ],
     "ingredients": [
         {
-            "quantity": 100,
+            "quantity": 700,
             "unit": "g",
-            "ingredient": "vermicelli",
-            "type": null
-        },
-        {
-            "quantity": 250,
-            "unit": "g",
-            "ingredient": "tofu",
+            "ingredient": "chicken thigh",
             "type": null
         },
         {
             "quantity": 1,
             "unit": "item",
-            "ingredient": "red bell pepper",
+            "ingredient": "red chilli, sectioned",
+            "type": null
+        },        
+        {
+            "quantity": 25,
+            "unit": "g",
+            "ingredient": "minced garlic",
             "type": null
         },
         {
             "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "Marinade"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "rice wine",
+            "type": "Marinade"
+        },
+        {
+            "quantity": 1,
             "unit": "item",
-            "ingredient": "onion",
-            "type": null
+            "ingredient": "egg",
+            "type": "Marinade"
         },
         {
-            "quantity": 3,
-            "unit": "item",
-            "ingredient": "garlic cloves",
-            "type": null
+            "quantity": 1.5,
+            "unit": "tbsp",
+            "ingredient": "cornstarch",
+            "type": "Marinade"
         },
         {
-            "ingredient": "basil"
-        },
-        {
-            "ingredient": "spinach"
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "oil",
+            "type": "Marinade"
         },
         {
             "quantity": 0.5,
@@ -50,41 +59,54 @@
             "type": "Sauce"
         },
         {
-            "quantity": 2,
+            "quantity": 0.5,
             "unit": "tbsp",
-            "ingredient": "oyster sauce",
+            "ingredient": "soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tbsp",
+            "ingredient": "rice wine",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "ketchup",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "rice vinegar",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "sugar",
             "type": "Sauce"
         },
         {
             "quantity": 1,
             "unit": "tsp",
-            "ingredient": "sugar",
+            "ingredient": "cornstarch",
             "type": "Sauce"
         },
         {
-            "quantity": 2,
-            "unit": "tsp",
-            "ingredient": "dark soy sauce",
-            "type": "Sauce"
-        },
-        {
-            "ingredient": "chilli oil",
-            "type": "Sauce"
-        },
-        {
-            "ingredient": "sriracha",
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "water",
             "type": "Sauce"
         }
     ],
     "steps": [
-        "Cook vermicelli. Drain and set aside.",
-        "Slice tofu into cubes, julienne red bell pepper, slice onion and mince the garlic.",
-        "Heat up some oil over medium heat and pan fry the tofu until golden brown. Add in 0.5 tbsp soy sauce and mix well.",
-        "Move the tofu to the side of the pan, stir fry the bell peppers, onions and garlic until the bell peppers are tender.",
-        "Add half of the basil leaves and spinach.",
-        "Add vermicelli and sauce. Mix well and cook until the sauce is reduced down.",
-        "Add the remaining basil leaves and cook until slightly wilted."
+        "Cut chicken thigh into pieces and marinate for 15 minutes.",
+        "Heat up the wok and add 1 tbsp of oil. Fry the chicken thigh until the surface is golden brown.",
+        "Make some space in the middle of the wok and add in garlic and chilli. Fry until fragrant.",
+        "Mix in the sauce and stir until thickened."
     ],
-    "originalRecipe": "https://thefoodietakesflight.com/basil-and-tofu-vermicelli/",
-    "video": null
+    "originalRecipe": null,
+    "video": "https://www.youtube.com/watch?v=leSLyEoVKus&t=1s"
 }

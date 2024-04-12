@@ -2,224 +2,345 @@
     {
         "id": "basil-and-tofu-vermicelli",
         "title": "Basil and Tofu Vermicelli",
+        "cuisines": ["asian"],
         "hashtags": [
-            "asian",
             "takeaway",
-            "homecook",
             "vegetarian"
+        ],
+        "ingredients": [
+            "vermicelli",
+            "tofu",
+            "bell pepper",
+            "onion",
+            "garlic",
+            "basil",
+            "spinach"
         ]
     },
     {
         "id": "beef-slices-with-coriander",
         "title": "Beef slices with coriander 香菜肥牛卷",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
             "side dish",
-            "spicy",
-            "homecook",
-            "beef slices",
-            "heatwave"
+            "spicy"
+        ],
+        "ingredients": [
+            "beef",
+            "chilli",
+            "garlic",
+            "coriander"
         ]
     },
     {
         "id": "braised-chicken-with-scallion-oil",
         "title": "Braised chicken with scallion oil 蔥油燜雞",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "chinese",
-            "homecook",
-            "chicken",
             "goes well with rice"
+        ],
+        "ingredients": [
+            "chicken thigh",
+            "spring onion",
+            "ginger"
         ]
     },
     {
         "id": "chicken-a-la-king",
         "title": "Chicken a la King 白汁雞皇飯",
+        "cuisines": ["asian", "chinese", "hong kong"],
         "hashtags": [
-            "chicken",
-            "hong kong",
-            "creamy",
-            "saucey",
             "goes well with rice"
+        ],
+        "ingredients": [
+            "chicken thigh",
+            "mushroom",
+            "carrot",
+            "potato",
+            "peas",
+            "double cream"
         ]
     },
     {
         "id": "chicken-breast-slices-with-coriander",
         "title": "Chicken breast slices with coriander",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "side dish",
-            "homecook",
-            "chicken",
-            "heatwave"
+            "side dish"
+        ],
+        "ingredients": [
+            "chicken breast",
+            "garlic",
+            "spring onion",
+            "coriander"
         ]
     },
     {
         "id": "chicken-lo-mein",
         "title": "Chicken Lo Mein",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "chinese",
-            "noodles",
-            "chicken",
             "takeaway"
+        ],
+        "ingredients": [
+            "chicken breast",
+            "carrot",
+            "onion",
+            "spring onion",
+            "ginger",
+            "garlic",
+            "egg noodles"
+        ]
+    },
+    {
+        "id": "chinese-cabbage-tofu-minced-pork-soup",
+        "title": "Chinese Cabbage Tofu Minced Pork Soup",
+        "cuisines": ["asian"],
+        "hashtags": ["quick", "soup"],
+        "ingredients": [
+            "chinese cabbage",
+            "tofu",
+            "minced pork"
         ]
     },
     {
         "id": "chinese-cabbage-with-vermicelli",
         "title": "Chinese Cabbage with Vermicelli 白菜粉絲煲",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "chinese",
-            "homecook",
-            "vegetarian",
+            "vegetarian"
+        ],
+        "ingredients": [
             "chinese cabbage",
-            "chinese leaf",
             "vermicelli",
-            "glass noodles",
-            "noodles"
+            "chilli",
+            "spring onion",
+            "garlic"
         ]
     },
     {
         "id": "chinese-leaf-and-pork-belly-glass-noodles",
         "title": "Chinese leaf and pork belly glass noodles",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "chinese",
-            "homecook",
-            "goes well with rice",
+            "goes well with rice"
+        ],
+        "ingredients": [
             "chinese leaf",
-            "pork belly"
+            "pork belly",
+            "spring onion",
+            "ginger",
+            "garlic",
+            "chilli",
+            "glass noodles",
+            "vermicelli"
         ]
     },
     {
         "id": "fajita",
         "title": "Fajita",
-        "hashtags": [
-            "mexican",
+        "cuisines": ["mexican"],
+        "hashtags": [],
+        "ingredients": [
             "chicken",
-            "cheese"
+            "bell pepper",
+            "onion",
+            "tortilla",
+            "salsa",
+            "cheddar cheese"
+        ]
+    },
+    {
+        "id": "general-tsos-chicken",
+        "title": "General Tso's Chicken 左宗棠雞",
+        "cuisines": ["asian", "chinese"],
+        "hashtags": [
+            "goes well with rice"
+        ],
+        "ingredients": [
+            "chicken thigh",
+            "chilli",
+            "garlic"
         ]
     },
     {
         "id": "korean-spicy-chicken-stew",
         "title": "Korean Spicy Chicken Stew",
+        "cuisines": ["asian", "korean"],
         "hashtags": [
-            "korean",
-            "chicken",
             "spicy",
-            "potatoes",
-            "warm",
-            "sweet",
-            "chilli"
+            "warm"
+        ],
+        "ingredients": [
+            "chicken thigh",
+            "onion",
+            "carrot",
+            "potato",
+            "chilli",
+            "spring onion",
+            "garlic"
         ]
     },
     {
         "id": "lettuce-in-chilli-garlic-sauce 白灼生菜",
         "title": "Lettuce in chilli garlic sauce",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "homecook",
-            "vegetarian",
-            "vegetables",
-            "healthy"
+            "vegetarian"
+        ],
+        "ingredients": [
+            "lettuce",
+            "garlic",
+            "spring onion",
+            "chilli"
         ]
     },
     {
         "id": "lettuce-with-fermented-bean-curd",
         "title": "Lettuce with Fermented Bean Curd 椒絲腐乳西生菜",
-        "hashtags": ["vegetarian", "homecook", "chinese"]
+        "cuisines": ["asian", "chinese"],
+        "hashtags": ["vegetarian"],
+        "ingredients": [
+            "lettuce",
+            "fermented bean curd"
+        ]
     },
     {
         "id": "mapo-tofu",
         "title": "Mapo Tofu",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "chinese",
-            "homecook",
-            "minced beef",
-            "tofu",
             "goes well with rice"
+        ],
+        "ingredients": [
+            "tofu",
+            "minced beef",
+            "ginger",
+            "garlic",
+            "spring onion"
         ]
     },
     {
         "id": "minced-pork-and-green-beans-lo-meen",
         "title": "Minced Pork and Green Beans Lo Meen",
-        "hashtags": [
-            "chinese",
-            "takeaway",
-            "homecook",
+        "cuisines": ["asian", "chinese"],
+        "hashtags": [],
+        "ingredients": [
+            "minced pork",
             "noodles",
-            "minced pork"
+            "green beans",
+            "spring onion",
+            "ginger"
         ]
     },
     {
         "id": "noodles-with-minced-beef-sauce",
         "title": "Noodles with Minced Beef Sauce",
-        "hashtags": [
-            "chinese",
-            "homecook",
-            "noodles",
-            "minced beef"
+        "cuisines": ["asian", "chinese"],
+        "hashtags": [],
+        "ingredients": [
+            "ginger",
+            "garlic",
+            "minced beef",
+            "spring onion"
         ]
     },
     {
         "id": "peking-stir-fry-pork",
         "title": "Peking Stir Fry Pork 京醬肉絲",
-        "hashtags": [
-            "chinese",
-            "restaurant dish",
-            "pork"
+        "cuisines": ["asian", "chinese"],
+        "hashtags": [],
+        "ingredients": [
+            "pork",
+            "spring onion",
+            "ginger",
+            "duck pancakes",
+            "cucumber"
         ]
     },
     {
         "id": "silky-tofu-with-chinese-chives",
         "title": "Silky Tofu with Chinese Chives",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "chinese",
-            "homecook",
             "vegetarian",
             "goes well with rice"
+        ],
+        "ingredients": [
+            "tofu",
+            "garlic",
+            "chilli",
+            "chinese chives"
         ]
     },
     {
         "id": "spicy-cabbage-salad",
         "title": "Spicy Cabbage Salad 涼拌高麗菜",
+        "cuisines": ["asian"],
         "hashtags": [
             "side dish",
             "spicy",
-            "homecook",
-            "vegetarian",
+            "vegetarian"
+        ],
+        "ingredients": [
             "cabbage",
-            "heatwave"
+            "garlic"
         ]
     },
     {
         "id": "steamed_seabass",
         "title": "Steamed Seabass",
-        "hashtags": [
-            "chinese",
-            "fish"
+        "cuisines": ["asian", "chinese"],
+        "hashtags": [],
+        "ingredients": [
+            "seabass",
+            "spring onion",
+            "ginger"
         ]
     },
     {
         "id": "steamed-lemon-chicken",
         "title": "Steamed Lemon Chicken 檸檬蒸雞",
-        "hashtags": [
-            "chinese",
-            "homecook",
-            "chicken"
+        "cuisines": ["asian", "chinese"],
+        "hashtags": [],
+        "ingredients": [
+            "chicken thigh",
+            "lemon",
+            "coriander",
+            "chilli",
+            "garlic",
+            "coriander"
         ]
     },
     {
         "id": "stir-fried-shredded-pork-with-green-pepper",
         "title": "Stir-fried Shredded Pork with Green Pepper 青椒肉絲",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
+            "goes well with rice"
+        ],
+        "ingredients": [
             "pork",
             "bell pepper",
-            "chinese",
-            "homecook",
-            "goes well with rice"
+            "chilli",
+            "ginger paste",
+            "garlic paste"
         ]
     },
     {
         "id": "tomatoes-pork-ribs-soup",
         "title": "Tomatoes Pork Ribs Soup 蕃茄排骨湯",
+        "cuisines": ["asian", "chinese"],
         "hashtags": [
-            "homecook",
             "soup"
+        ],
+        "ingredients": [
+            "pork ribs",
+            "spring onion",
+            "ginger",
+            "tomato",
+            "sweet corn",
+            "shittake mushroom"
         ]
     }
 ]

@@ -1,71 +1,46 @@
-<div class="header">
-    <h1>{{ recipe.title }}</h1>
-    <span class="material-symbols-outlined" (click)="onClose()">close</span>
-    <!-- <div>
-        <p-chip *ngFor="let tag of recipe.hashtags" [label]="tag"></p-chip>
+<div *ngIf="recipe">
+    <img src="assets/photos/chinese-cabbage-tofu-minced-pork-soup.jpeg" [alt]="recipe.title"/>
+
+    <h2>{{ recipe.title }}</h2>
+
+    <div class="sub-header">
+        <div class="tags">
+            <p-tag *ngFor="let tag of recipe.hashtags" [value]="tag" severity="info"></p-tag>
+        </div>
+        <div class="tools">
+            <input type="number" [(ngModel)]="multiplier" pInputText [min]="0">
+            <i *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)" class="material-symbols-outlined icon-btn"><article></article></i>
+            <i *ngIf="recipe.video" (click)="onClickLink(recipe.video)" class="material-symbols-outlined icon-btn">smart_display</i>
+        </div>
     </div>
 
-    <div class="tools">
-        <p-button *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)">
-            <i class="material-symbols-outlined">article</i> <span>Original Recipe</span>
-        </p-button>
-        <p-button *ngIf="recipe.video" (click)="onClickLink(recipe.video)">
-            <i class="material-symbols-outlined">smart_display</i> <span>Video</span>
-        </p-button>
-    </div> -->
+    <p-tabView>
+        <p-tabPanel header="Ingredients">
+            <ng-template pTemplate="header">
+                <i class="material-symbols-outlined tab-header-icon">egg_alt</i>
+                <span>Ingredients</span>
+            </ng-template>
+
+            <div *ngFor="let group of ingredients">
+                <h4 *ngIf="group.section !== 'main'">{{ group.section }}</h4>
+                <ul>
+                    <li *ngFor="let item of group.ingredients">
+                        <span *ngIf="item.quantity">
+                            {{ item.quantity * multiplier }} {{ item.unit === "item" ? "" : item.unit }}
+                        </span>
+                        {{ item.ingredient }}
+                    </li>
+                </ul>
+            </div>
+        </p-tabPanel>
+    
+        <p-tabPanel header="Method">
+            <ng-template pTemplate="header">
+                <i class="material-symbols-outlined tab-header-icon">skillet</i>
+                <span>Method</span>
+            </ng-template>
+
+            <app-stepper [steps]="recipe.steps"></app-stepper>
+        </p-tabPanel>
+    </p-tabView>
 </div>
-
-<div>
-    <p-chip *ngFor="let tag of recipe.hashtags" [label]="tag"></p-chip>
-</div>
-
-<div class="tools">
-    <p-button *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)">
-        <i class="material-symbols-outlined">article</i> <span>Original Recipe</span>
-    </p-button>
-    <p-button *ngIf="recipe.video" (click)="onClickLink(recipe.video)">
-        <i class="material-symbols-outlined">smart_display</i> <span>Video</span>
-    </p-button>
-</div>
-<!-- <h1>{{ recipe.title }}</h1> -->
-
-<p-tabView>
-    <p-tabPanel header="Ingredients">
-        <ng-template pTemplate="header">
-            <i class="material-symbols-outlined tab-header-icon">egg_alt</i>
-            <span>Ingredients</span>
-        </ng-template>
-
-        <div class="multiplier">
-            <input type="number" [(ngModel)]="multiplier" placeholder="Enter a multiplier">
-            <p-button (click)="multiplier = 1">
-                <i class="material-symbols-outlined">restart_alt</i>
-            </p-button>
-        </div>
-
-        <div *ngFor="let group of ingredients">
-            <h4 *ngIf="group.section !== 'main'">{{ group.section }}</h4>
-            <ul>
-                <li *ngFor="let item of group.ingredients">
-                    <span *ngIf="item.quantity">
-                        {{ item.quantity * multiplier }} {{ item.unit === "item" ? "" : item.unit }}
-                    </span>
-                    {{ item.ingredient }}
-                </li>
-            </ul>
-        </div>
-    </p-tabPanel>
-
-    <p-tabPanel header="Method">
-        <ng-template pTemplate="header">
-            <i class="material-symbols-outlined tab-header-icon">skillet</i>
-            <span>Method</span>
-        </ng-template>
-
-        <ol>
-            <li *ngFor="let step of recipe.steps">
-                {{ step }}
-            </li>
-        </ol>
-    </p-tabPanel>
-</p-tabView>

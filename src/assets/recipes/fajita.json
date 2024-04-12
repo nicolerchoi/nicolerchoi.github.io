@@ -1,6 +1,6 @@
 {
     "title": "Fajita",
-    "hashtags": ["mexican", "chicken", "cheese"],
+    "hashtags": [],
     "ingredients": [
         { "quantity": 2, "unit": "tbsp", "ingredient": "canola oil", "type": "marinade" },
         { "quantity": 2, "unit": "tbsp", "ingredient": "lemon juice", "type": "marinade" },

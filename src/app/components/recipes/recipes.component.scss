@@ -1,17 +1,80 @@
-.page {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-
-    .header {
-        flex: 0 0 auto;
+p-autoComplete ::ng-deep {
+    .p-autocomplete, .p-autocomplete-input {
+        width: 100%;
     }
 
-    .content {
-        flex: 1 0 auto;
+    p-overlay .p-overlay {
+        max-width: 100%;
+
+        .p-autocomplete-item span {
+            white-space: break-spaces;
+        }
+    }
+}
+
+.random-picker {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.by-cuisine {
+    p-chip {
+        .chip-content {
+            display: inline-flex;
+            align-items: center;
+            line-height: 1.5;
+            margin-top: 0.375rem;
+            margin-bottom: 0.375rem;
+        }
+
+        i {
+            font-size: 18px;
+            padding-left: 2px;
+        }
+    }
+
+    .carousel {
+        margin-top: 20px;
+    }
+}
+
+p-multiselect ::ng-deep .p-multiselect {
+    width: 100%;
+}
+
+.recipe-card {
+    width: 250px;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background: #c5e7f7;
+        transition: 300ms;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    p-tag + p-tag {
+        margin-left: 5px;
     }
 }
 
 as-split-area {
+    padding: 10px;
+}
+
+p-carousel ::ng-deep .p-carousel-item {
+    flex: unset !important;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card {
     padding: 10px;
 }

@@ -1,0 +1,64 @@
+{
+    "title": "Chinese Cabbage Tofu Minced Pork Soup",
+    "hashtags": ["quick", "soup"],
+    "ingredients": [
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "minced garlic",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "coriander, chopped roots (leaves separated)",
+            "type": null
+        },
+        {
+            "quantity": 250,
+            "unit": "g",
+            "ingredient": "minced pork",
+            "type": null
+        },
+        {
+            "quantity": 200,
+            "unit": "g",
+            "ingredient": "tofu",
+            "type": null
+        },
+        {
+            "quantity": 250,
+            "unit": "g",
+            "ingredient": "chinese cabbage, chopped",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "spring onions, chopped",
+            "type": null
+        },
+        {
+            "quantity": 0.5,
+            "unit": "tsp",
+            "ingredient": "soy sauce",
+            "type": null
+        },
+        {
+            "ingredient": "black pepper"
+        },
+        {
+            "ingredient": "salt"
+        }
+    ],
+    "steps": [
+        "Cut tofu into cubes or slices. Put them in the water to remove the smell.",
+        "Heat oil in wok. Add minced garlic and chopped coriander roots, with some black pepper. Fry until fragrant.",
+        "Add minced pork and fry until it is no longer pick. Add soy sauce half way through.",
+        "Pour hot water into the wok. Add vegetable stock cube and salt. Mix well.",
+        "When the water is boiling, add the chopped chinese cabbage and tofu in. Let it boil until the cabbage softens.",
+        "Add spring onions and coriander leaves. Stir and serve."
+    ],
+    "originalRecipe": null,
+    "video": null
+}

@@ -23,7 +23,9 @@ export class RecipesService {
 export interface Recipe {
     id: string;
     title: string;
+    cuisines: string[];
     hashtags: string[];
+    ingredients: string[];
 }
 
 export interface RecipeDetail {

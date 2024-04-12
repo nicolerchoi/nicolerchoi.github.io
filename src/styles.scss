@@ -28,8 +28,24 @@ p-chip {
 
     &.clickable:hover {
         .p-chip {
-            background: $alt-hover;
+            background: #c5e7f7;
             transition: 500ms;
         }
     }
+
+    &.highlight {
+        .p-chip, &:hover .p-chip {
+            background: #0ea5e9;
+            color: white;
+        }
+    }
+
+    .p-chip {
+        margin-bottom: 5px;
+    }
+}
+
+.p-overlaypanel-content {
+    padding: 0;
+    margin: 10px;
 }

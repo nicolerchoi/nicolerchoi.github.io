@@ -14,20 +14,31 @@ import { RecipesComponent } from './components/recipes/recipes.component';
 
 import { AngularSplitModule } from 'angular-split';
 
+import { AutoCompleteModule } from 'primeng/autocomplete';
 import { ButtonModule } from 'primeng/button';
+import { CheckboxModule } from 'primeng/checkbox';
 import { ChipModule } from 'primeng/chip';
+import { InputTextModule } from 'primeng/inputtext';
 import { MenubarModule } from 'primeng/menubar';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { OverlayPanelModule } from 'primeng/overlaypanel';
 import { TableModule } from 'primeng/table';
 import { TabViewModule } from 'primeng/tabview';
-import { InputTextModule } from 'primeng/inputtext';
+import { TagModule } from 'primeng/tag';
+import { StepperComponent } from './components/stepper/stepper.component';
 
 const primeng = [
+    AutoCompleteModule,
     ButtonModule,
+    CheckboxModule,
     ChipModule,
     InputTextModule,
     MenubarModule,
+    MultiSelectModule,
+    OverlayPanelModule,
     TableModule,
-    TabViewModule
+    TabViewModule,
+    TagModule
 ];
 
 @NgModule({
@@ -36,7 +47,8 @@ const primeng = [
         RecipesComponent,
         RecipesListComponent,
         RecipeComponent,
-        RecipeFormComponent
+        RecipeFormComponent,
+        StepperComponent
     ],
     imports: [
         AngularSplitModule,

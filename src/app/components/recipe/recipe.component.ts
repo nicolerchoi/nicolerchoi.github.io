@@ -1,5 +1,7 @@
-import { Component, Input, SimpleChanges, OnChanges, ChangeDetectionStrategy, Output, EventEmitter } from '@angular/core';
-import { RecipeDetail, Ingredient } from 'src/app/services/recipes.service';
+import { Component, ChangeDetectionStrategy, OnInit, ChangeDetectorRef, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { RecipeDetail, Ingredient, RecipesService } from '../../services/recipes.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-recipe',
@@ -7,37 +9,64 @@ import { RecipeDetail, Ingredient } from 'src/app/services/recipes.service';
   styleUrls: ['./recipe.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class RecipeComponent implements OnChanges {
+export class RecipeComponent implements OnInit, OnDestroy {
 
-    @Input() recipe!: RecipeDetail;
-
-    @Output() close: EventEmitter<void> = new EventEmitter();
+    recipeId?: string;
+    recipe?: RecipeDetail;
+    ingredients: IngredientGroup[] = [];
 
     multiplier: number = 1;
 
-    ingredients: { section: string, ingredients: Ingredient[] }[] = [];
+    private subscription: Subscription = new Subscription();
 
-    ngOnChanges(changes: SimpleChanges): void {
-        if ('recipe' in changes) {
-            const ingredientGroups = this.recipe.ingredients.reduce((a, c) => {
-                const section = c.type ? c.type : 'main';
-                const sectionIngredients = a[section] ?? [];
-                return {
-                    ...a,
-                    [section]: [...sectionIngredients, c]
-                };
-            }, {} as { [section: string]: Ingredient[]; });
-            this.ingredients = Object.entries(ingredientGroups)
-                .map(([section, ingredients]) => ({ section, ingredients }))
-                .sort((a, b) => a.section === 'main' ? -1 : b.section === 'main' ? 1 : 0 );
+    constructor(
+        private recipesService: RecipesService,
+        private cd: ChangeDetectorRef,
+        private route: ActivatedRoute
+    ) { }
+
+    ngOnInit(): void {
+        const id = this.route.snapshot.paramMap.get('recipeId');
+        if (id) {
+            this.recipeId = id;
+            this.subscription.add(this.recipesService.getRecipe(id).subscribe(
+                result => {
+                    this.recipe = result;
+                    this.ingredients = this.groupedIngredients(this.recipe.ingredients);
+                    this.cd.markForCheck();
+                },
+                error => {
+                    console.log(`Cannot get recipe ${id}`, error)
+                }
+            ));
         }
     }
 
-    onClose(): void {
-        this.close.emit();
+    ngOnDestroy(): void {
+        this.subscription.unsubscribe();
+    }
+
+    groupedIngredients(ingredients: Ingredient[]): IngredientGroup[] {
+        const ingredientGroups = ingredients.reduce((a, c) => {
+            const section = c.type ? c.type : 'main';
+            const sectionIngredients = a[section] ?? [];
+            return {
+                ...a,
+                [section]: [...sectionIngredients, c]
+            };
+        }, {} as { [section: string]: Ingredient[]; });
+
+        return Object.entries(ingredientGroups)
+            .map(([section, ingredients]) => ({ section, ingredients }))
+            .sort((a, b) => a.section === 'main' ? -1 : b.section === 'main' ? 1 : 0 );
     }
 
     onClickLink(link: string): void {
         window.open(link);
     }
+}
+
+interface IngredientGroup {
+    section: string;
+    ingredients: Ingredient[];
 }
