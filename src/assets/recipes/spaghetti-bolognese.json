@@ -1,0 +1,125 @@
+{
+    "title": "Spaghetti Bolognese",
+    "hashtags": [],
+    "ingredients": [
+        {
+            "quantity": 4,
+            "unit": "item",
+            "ingredient": "bacon, finely chopped",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "onions",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "carrot",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "celery",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "garlic cloves",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "rosemary",
+            "type": null
+        },
+        {
+            "quantity": 500,
+            "unit": "g",
+            "ingredient": "minced beef",
+            "type": null
+        },
+        {
+            "quantity": 800,
+            "unit": "g",
+            "ingredient": "tinned plum tomatoes",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "pack of basil leaves, 75% finely chopped",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "dried oregano",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "bay leaves",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "tomato purée",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "beef stock cube",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "red chilli, deseeded and finely chopped",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "quantity": 125,
+            "unit": "ml",
+            "ingredient": "red wine",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "quantity": 6,
+            "unit": "item",
+            "ingredient": "cherry tomatoes, halved",
+            "type": "Bolognese Sauce"
+        },
+        {
+            "ingredient": "parmesan",
+            "type": null
+        },
+        {
+            "ingredient": "spaghetti",
+            "type": null
+        },
+        {
+            "ingredient": "garlic bread",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Put a large saucepan on a medium heat and add 1 tbsp olive oil.",
+        "Add 4 finely chopped bacon rashers and fry for 10 mins until golden and crisp.",
+        "Reduce the heat and add the onions, carrots, celery sticks, garlic cloves and the leaves from 2-3 sprigs rosemary, all finely chopped, then fry for 10 mins. Stir the veg often until it softens.",
+        "Increase the heat to medium-high, add beef mince and cook stirring for 3-4 mins until the meat is browned all over.",
+        "Add the ingredients for the Bolognese sauce. Stir with a wooden spoon, breaking up the plum tomatoes.",
+        "Bring to the boil, reduce to a gentle simmer and cover with a lid. Cook for 1 hr 15 mins stirring occasionally, until you have a rich, thick sauce.",
+        "Serve bolognese with spaghetti and grated parmesan. Garnish with basil leaves."
+    ],
+    "originalRecipe": "https://www.bbcgoodfood.com/recipes/best-spaghetti-bolognese-recipe",
+    "video": null
+}

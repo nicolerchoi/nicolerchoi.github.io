@@ -18,6 +18,7 @@ import { AutoCompleteModule } from 'primeng/autocomplete';
 import { ButtonModule } from 'primeng/button';
 import { CheckboxModule } from 'primeng/checkbox';
 import { ChipModule } from 'primeng/chip';
+import { DropdownModule } from 'primeng/dropdown';
 import { InputTextModule } from 'primeng/inputtext';
 import { MenubarModule } from 'primeng/menubar';
 import { MultiSelectModule } from 'primeng/multiselect';
@@ -32,6 +33,7 @@ const primeng = [
     ButtonModule,
     CheckboxModule,
     ChipModule,
+    DropdownModule,
     InputTextModule,
     MenubarModule,
     MultiSelectModule,

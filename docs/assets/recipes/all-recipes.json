@@ -100,6 +100,23 @@
         ]
     },
     {
+        "id": "chicken-stew",
+        "title": "Chicken Stew",
+        "cuisines": ["european"],
+        "hashtags": [
+          "goes well with rice"
+        ],
+        "ingredients": [
+            "chicken",
+            "carrot",
+            "onion",
+            "celery",
+            "potato",
+            "garlic",
+            "parsley"
+        ]
+    },
+    {
         "id": "chinese-cabbage-tofu-minced-pork-soup",
         "title": "Chinese Cabbage Tofu Minced Pork Soup",
         "cuisines": ["asian"],
@@ -144,6 +161,24 @@
         ]
     },
     {
+        "id": "eggplant-and-minced-pork-stir-fry",
+        "title": "Eggplant and minced pork stir fry",
+        "cuisines": ["asian", "chinese"],
+        "hashtags": [
+            "goes well with rice"
+        ],
+        "ingredients": [
+            "eggplant",
+            "minced pork",
+            "spring onion",
+            "ginger",
+            "garlic",
+            "red chilli",
+            "spicy bean paste",
+            "miso paste"
+        ]
+    },
+    {
         "id": "fajita",
         "title": "Fajita",
         "cuisines": ["mexican"],
@@ -168,6 +203,18 @@
             "chicken thigh",
             "chilli",
             "garlic"
+        ]
+    },
+    {
+        "id": "japanese-chicken-curry",
+        "title": "Japanese Chicken Curry",
+        "cuisines": ["asian", "japanese"],
+        "hashtags": ["goes well with rice", "quick"],
+        "ingredients": [
+            "chicken thigh",
+            "carrot",
+            "onion",
+            "potato"
         ]
     },
     {
@@ -210,6 +257,20 @@
         "ingredients": [
             "lettuce",
             "fermented bean curd"
+        ]
+    },
+    {
+        "id": "lotus-roots-and-spare-ribs-soup",
+        "title": "Lotus roots and spare ribs soup",
+        "cuisines": ["asian", "chinese"],
+        "hashtags": ["soup"],
+        "ingredients": [
+            "lotus root",
+            "carrot",
+            "chinese yam",
+            "spring onion",
+            "date palm",
+            "spare ribs"
         ]
     },
     {
@@ -278,6 +339,23 @@
             "garlic",
             "chilli",
             "chinese chives"
+        ]
+    },
+    {
+        "id": "spaghetti-bolognese",
+        "title": "Spaghetti Bolognese",
+        "cuisines": ["italian", "european"],
+        "hashtags": [],
+        "ingredients": [
+            "minced beef",
+            "beef",
+            "onion",
+            "carrot",
+            "celery",
+            "rosemary",
+            "basil",
+            "cherry tomatoes",
+            "parmesan"
         ]
     },
     {

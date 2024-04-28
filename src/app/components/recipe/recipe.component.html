@@ -9,7 +9,7 @@
         </div>
         <div class="tools">
             <input type="number" [(ngModel)]="multiplier" pInputText [min]="0">
-            <i *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)" class="material-symbols-outlined icon-btn"><article></article></i>
+            <i *ngIf="recipe.originalRecipe" (click)="onClickLink(recipe.originalRecipe)" class="material-symbols-outlined icon-btn">two_pager</i>
             <i *ngIf="recipe.video" (click)="onClickLink(recipe.video)" class="material-symbols-outlined icon-btn">smart_display</i>
         </div>
     </div>

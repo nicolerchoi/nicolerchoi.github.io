@@ -1,0 +1,66 @@
+{
+    "title": "Lotus roots and spare ribs soup",
+    "hashtags": ["soup"],
+    "ingredients": [
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "lotus root, chopped",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "carrot, chopped",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "chinese yam 淮山, sliced and soaked in salty water",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "spring onions",
+            "type": null
+        },
+        {
+            "quantity": 6,
+            "unit": "item",
+            "ingredient": "garlic gloves",
+            "type": null
+        },
+        {
+            "quantity": 20,
+            "unit": "item",
+            "ingredient": "date palm 椰棗, deseeded",
+            "type": null
+        },
+        {
+            "quantity": 500,
+            "unit": "g",
+            "ingredient": "pork spare ribs",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "salt",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Marinate the pork ribs with salt for at least 6 hours.",
+        "Blanch the pork ribs to remove the gunk. Rinse and set aside.",
+        "At medium high heat, add oil and garlic cloves and fry for a minute",
+        "Add lotus root and carrot and fry for about 3 minutes.",
+        "Add hot water, spring onions, date palms and let boil for 10 minutes.",
+        "At low heat, continue to boil for another 20 minutes.",
+        "Add spare ribs in and cook for 40 mins.",
+        "Rinse the salt water off the yam, add into the soup for another 20 minutes."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/53awbMavaQI?si=tR8JeG0EK6IH2GoZ"
+}

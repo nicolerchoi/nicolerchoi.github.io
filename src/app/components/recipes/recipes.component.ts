@@ -3,7 +3,7 @@ import { RecipesService, Recipe, RecipeDetail } from '../../services/recipes.ser
 import { AutoCompleteCompleteEvent } from 'primeng/autocomplete';
 import { ActivatedRoute, Router } from '@angular/router';
 import { OverlayPanel } from 'primeng/overlaypanel';
-import { Carousel } from 'primeng/carousel';
+import { SelectItem } from 'primeng/api';
 
 @Component({
     selector: 'recipes',
@@ -23,11 +23,15 @@ export class RecipesComponent implements OnInit {
 
     cuisines: string[] = [];
     selectedCuisine?: string;
-    cuisineRecipes: Recipe[] = [];
+    // cuisineRecipes: Recipe[] = [];
 
     hashtags: string[] = [];
     selectedHashtags?: string[];
-    hashtagRecipes: Recipe[] = [];
+
+    ingredients: SelectItem[] = [];
+    selectedIngredients?: string[];
+
+    filteredRecipes: Recipe[] = [];
 
     constructor(
         private recipesService: RecipesService,
@@ -40,8 +44,11 @@ export class RecipesComponent implements OnInit {
         this.recipesService.getAllRecipes().subscribe(
             result => {
                 this.recipes = result;
+                this.filteredRecipes = this.recipes;
                 this.cuisines = [...new Set(result.flatMap(r => r.cuisines))];
                 this.hashtags = [...new Set(result.flatMap(r => r.hashtags))];
+                this.ingredients = [...new Set(result.flatMap(r => r.ingredients))].sort()
+                    .map(i => ({ label: capitalise(i), value: i}));
                 this.cd.markForCheck();
             },
             error => {
@@ -66,26 +73,38 @@ export class RecipesComponent implements OnInit {
         }
     }
 
-    getRecipesByCuisine(): Recipe[] {
-        return this.recipes.filter(r => r.cuisines.includes(this.selectedCuisine ?? ''));
-    }
+    // getRecipesByCuisine(): Recipe[] {
+    //     return this.recipes.filter(r => r.cuisines.includes(this.selectedCuisine ?? ''));
+    // }
 
-    onSelectCuisine(cuisine: string): void {
-        this.selectedCuisine = cuisine;
-        this.cuisineRecipes = this.getRecipesByCuisine();
-    }
+    // onSelectCuisine(cuisine: string): void {
+    //     this.selectedCuisine = cuisine;
+    //     this.cuisineRecipes = this.getRecipesByCuisine();
+    // }
 
-    isSelectedCuisine(cuisine: string): boolean {
-        return this.selectedCuisine === cuisine;
-    }
+    // isSelectedCuisine(cuisine: string): boolean {
+    //     return this.selectedCuisine === cuisine;
+    // }
 
-    deselectCuisine(event: MouseEvent): void {
-        event.stopPropagation();
-        this.selectedCuisine = undefined;
-        this.cuisineRecipes = this.getRecipesByCuisine();
-    }
+    // deselectCuisine(event: MouseEvent): void {
+    //     event.stopPropagation();
+    //     this.selectedCuisine = undefined;
+    //     this.cuisineRecipes = this.getRecipesByCuisine();
+    // }
 
-    onHashtagsChange(): void {
-        this.hashtagRecipes = this.recipes.filter(r => r.hashtags.some(tag => this.selectedHashtags?.includes(tag)));
+    onFilterChange(): void {
+        const filterByCuisine = this.selectedCuisine
+            ? this.recipes.filter(r => r.cuisines.includes(this.selectedCuisine!))
+            : this.recipes
+        const filterByHashtags = this.selectedHashtags?.length
+            ? filterByCuisine.filter(r => r.hashtags.some(tag => this.selectedHashtags!.includes(tag)))
+            : filterByCuisine;
+        this.filteredRecipes = this.selectedIngredients?.length
+            ? filterByHashtags.filter(r => this.selectedIngredients!.every(i => r.ingredients.includes(i)))
+            : filterByHashtags;
     }
+}
+
+function capitalise(str: string): string {
+    return str[0].toUpperCase() + str.slice(1);
 }

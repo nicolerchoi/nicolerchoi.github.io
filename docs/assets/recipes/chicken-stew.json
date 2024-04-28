@@ -1,0 +1,94 @@
+{
+    "title": "Chicken Stew",
+    "hashtags": [
+      "goes well with rice"
+    ],
+    "ingredients": [
+      {
+        "quantity": 600,
+        "unit": "g",
+        "ingredient": "chicken thigh/breast",
+        "type": null
+      },
+      {
+        "quantity": 3,
+        "unit": "item",
+        "ingredient": "carrots, cut into moon-shaped slices",
+        "type": null
+      },
+      {
+        "quantity": 2,
+        "unit": "item",
+        "ingredient": "onions, chopped into chunks",
+        "type": null
+      },
+      {
+        "quantity": 4,
+        "unit": "item",
+        "ingredient": "celery sticks, sliced",
+        "type": null
+      },
+      {
+        "quantity": 4,
+        "unit": "item",
+        "ingredient": "garlic cloves, minced",
+        "type": null
+      },
+      {
+        "quantity": 30,
+        "unit": "g",
+        "ingredient": "all purpose flour",
+        "type": null
+      },
+      {
+        "quantity": 1.5,
+        "unit": "L",
+        "ingredient": "chicken broth",
+        "type": null
+      },
+      {
+        "quantity": 450,
+        "unit": "g",
+        "ingredient": "baby potatoes, halved",
+        "type": null
+      },
+      {
+        "quantity": 2,
+        "unit": "item",
+        "ingredient": "bay leaves",
+        "type": null
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "ingredient": "salt",
+        "type": null
+      },
+      {
+        "quantity": 1,
+        "unit": "tsp",
+        "ingredient": "black pepper",
+        "type": null
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "ingredient": "fresh parsley, chopped",
+        "type": null
+      },
+      {
+        "ingredient": "baguette/rice"
+      }
+    ],
+    "steps": [
+      "Heat some oil in a pot over medium-high heat. Add the chicken pieces and cook until lightly brown on each side. Set chicken aside.",
+      "Add some more oil to the pot, and add carrot, onion and celery. Stir for about 5 minutes, until vegetables are tender.",
+      "Add garlic and flour and cook for 2 minutes.",
+      "Stir in the chicken broth.",
+      "Add chicken, potatoes, bay leaves, salt and pepper. Bring the mixture to a boil and then reduce the heat to low.",
+      "Cook for about 40-45 minutes until the potatoes and softened and the stew is thickened.",
+      "Sprinkle parsley and serve with baguette/rice."
+    ],
+    "originalRecipe": "https://preppykitchen.com/chicken-stew/",
+    "video": "https://youtu.be/aiALWQ9bELE?si=awKN67Xmeltz9o1D"
+  }

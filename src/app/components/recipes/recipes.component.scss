@@ -38,9 +38,9 @@ p-autoComplete ::ng-deep {
     }
 }
 
-p-multiselect ::ng-deep .p-multiselect {
-    width: 100%;
-}
+// p-multiselect ::ng-deep .p-multiselect {
+//     width: 100%;
+// }
 
 .recipe-card {
     width: 250px;
@@ -73,6 +73,27 @@ p-carousel ::ng-deep .p-carousel-item {
 .carousel {
     display: flex;
     overflow-x: scroll;
+}
+
+.filter-dropdowns {
+    display: flex;
+
+    * + * {
+        margin-left: 5px;
+    }
+
+    p-multiselect.active ::ng-deep .p-multiselect {
+        border-color: #3B82F6;
+
+        .p-multiselect-label {
+            color: #6c757d;
+        }
+    }
+}
+
+.flex-list {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {

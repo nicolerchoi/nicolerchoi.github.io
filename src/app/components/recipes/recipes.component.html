@@ -17,7 +17,7 @@
     </p-button>    
 </div>
 
-<div class="by-cuisine">
+<!-- <div class="by-cuisine">
     <h2>Find recipes by cuisine</h2>
     <p-chip *ngFor="let cuisine of cuisines"
         class="clickable"
@@ -34,21 +34,42 @@
             <ng-container *ngTemplateOutlet="recipeCard; context: { $implicit: recipe }"></ng-container>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="by-hashtag">
-    <h2>Find recipes by categories</h2>
-    <p-multiSelect
-        [options]="hashtags"
-        [(ngModel)]="selectedHashtags"
-        (ngModelChange)="onHashtagsChange()"
-        display="chip"
-        [showClear]="true"
-        placeholder="Select categories"
-    ></p-multiSelect>
+<div class="filter-recipes">
+    <h4>Filter recipes</h4>
+    <div class="filter-dropdowns">
+        <p-dropdown
+            [options]="cuisines"
+            [(ngModel)]="selectedCuisine"
+            (ngModelChange)="onFilterChange()"
+            [showClear]="true"
+            placeholder="Cuisine">
+        </p-dropdown>
+        <p-multiSelect
+            [class.active]="selectedHashtags?.length"
+            [options]="hashtags"
+            [(ngModel)]="selectedHashtags"
+            (ngModelChange)="onFilterChange()"
+            [filter]="true"
+            [resetFilterOnHide]="true"
+            placeholder="Categories">
+            <ng-template let-value pTemplate="selectedItems">Categories</ng-template>
+        </p-multiSelect>
+        <p-multiSelect
+            [class.active]="selectedIngredients?.length"
+            [options]="ingredients"
+            [(ngModel)]="selectedIngredients"
+            (ngModelChange)="onFilterChange()"
+            [filter]="true"
+            [resetFilterOnHide]="true"
+            placeholder="Ingredients">
+            <ng-template let-value pTemplate="selectedItems">Ingredients</ng-template>
+        </p-multiSelect>
+    </div>
 
-    <div class="carousel">
-        <div class="card" *ngFor="let recipe of (selectedHashtags?.length ? hashtagRecipes : recipes)">
+    <div class="flex-list">
+        <div class="card" *ngFor="let recipe of filteredRecipes">
             <ng-container *ngTemplateOutlet="recipeCard; context: { $implicit: recipe }"></ng-container>
         </div>
     </div>

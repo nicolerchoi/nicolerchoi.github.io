@@ -1,0 +1,82 @@
+{
+    "title": "Japanese Chicken Curry",
+    "hashtags": ["goes well with rice", "quick"],
+    "ingredients": [
+        {
+            "quantity": 3,
+            "unit": "item",
+            "ingredient": "onions, sliced",
+            "type": null
+        },
+        {
+            "quantity": 1.5,
+            "unit": "tsp",
+            "ingredient": "garlic, minced",
+            "type": null
+        },
+        {
+            "quantity": 1.5,
+            "unit": "tsp",
+            "ingredient": "ginger, minced",
+            "type": null
+        },
+        {
+            "quantity": 900,
+            "unit": "g",
+            "ingredient": "chicken thigh, chopped",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "item",
+            "ingredient": "carrots, chopped",
+            "type": null
+        },
+        {
+            "quantity": 4,
+            "unit": "item",
+            "ingredient": "potatoes, chopped into chunks",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "L",
+            "ingredient": "chicken stock",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "pack of Japanese curry cubes, chopped into small pieces",
+            "type": null
+        },
+        {
+            "ingredient": "apple, grated",
+            "type": null
+        },
+        {
+            "quantity": 1.5,
+            "unit": "tbsp",
+            "ingredient": "ketchup",
+            "type": null
+        },
+        {
+            "quantity": 1.5,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Season the chicken with salt and pepper after chopping it into bite sizes. Set aside.",
+        "Heat pan with oil. Saute the onions and fry until the aroma comes out. Continue to fry for another 1-2 minutes.",
+        "Add ginger and garlic and fry until fragrant.",
+        "Add chicken thighs in and keep mixing until it is about 80% pink.",
+        "Add carrot and potatoes and stir for about 3 minutes.",
+        "Add chicken stock and Japanese curry cubes. Keeping stiring until the curry cubes is melted into the stock.",
+        "Grate some apple into the pot to add some sweetness. Put a lid on and let it cook for medium heat for 15 minutes.",
+        "Mix it the ketchup and soy sauce and serve."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/kktvhgQ_01g?si=DvAF_7JQyASmb-Ar"
+}
