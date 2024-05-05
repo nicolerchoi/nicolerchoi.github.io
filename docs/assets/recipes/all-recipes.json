@@ -427,5 +427,21 @@
             "sweet corn",
             "shittake mushroom"
         ]
+    },
+    {
+        "id": "yakisoba",
+        "title": "Yakisoba",
+        "cuisines": ["asian", "japanese"],
+        "hashtags": ["quick", "noodles"],
+        "ingredients": [
+            "pork belly",
+            "chicken",
+            "onion",
+            "carrot",
+            "spring onion",
+            "cabbage",
+            "shittake mushroom",
+            "mushroom"
+        ]
     }
 ]
