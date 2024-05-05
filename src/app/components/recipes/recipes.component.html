@@ -43,10 +43,12 @@
             [options]="cuisines"
             [(ngModel)]="selectedCuisine"
             (ngModelChange)="onFilterChange()"
+            [filter]="true"
             [showClear]="true"
             placeholder="Cuisine">
         </p-dropdown>
         <p-multiSelect
+            class="categories"
             [class.active]="selectedHashtags?.length"
             [options]="hashtags"
             [(ngModel)]="selectedHashtags"
@@ -57,6 +59,7 @@
             <ng-template let-value pTemplate="selectedItems">Categories</ng-template>
         </p-multiSelect>
         <p-multiSelect
+            class="ingredients"
             [class.active]="selectedIngredients?.length"
             [options]="ingredients"
             [(ngModel)]="selectedIngredients"
@@ -66,6 +69,17 @@
             placeholder="Ingredients">
             <ng-template let-value pTemplate="selectedItems">Ingredients</ng-template>
         </p-multiSelect>
+    </div>
+
+    <div class="tags">
+        <p-tag *ngFor="let tag of selectedHashtags" [value]="tag" severity="info">
+            <span class="material-symbols-outlined" (click)="removeTag(tag)">close</span>
+        </p-tag>
+    </div>
+    <div class="tags">
+        <p-tag *ngFor="let ingredient of selectedIngredients" [value]="ingredient" severity="success">
+            <span class="material-symbols-outlined" (click)="removeIngredient(ingredient)">close</span>
+        </p-tag>
     </div>
 
     <div class="flex-list">

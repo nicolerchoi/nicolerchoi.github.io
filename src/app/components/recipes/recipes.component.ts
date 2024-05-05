@@ -103,6 +103,20 @@ export class RecipesComponent implements OnInit {
             ? filterByHashtags.filter(r => this.selectedIngredients!.every(i => r.ingredients.includes(i)))
             : filterByHashtags;
     }
+
+    removeTag(tag: string): void {
+        this.selectedHashtags = this.selectedHashtags
+            ? this.selectedHashtags.filter(t => t !== tag)
+            : undefined;
+        this.onFilterChange();
+    }
+
+    removeIngredient(ingredient: string): void {
+        this.selectedIngredients = this.selectedIngredients
+            ? this.selectedIngredients.filter(i => i !== ingredient)
+            : undefined;
+        this.onFilterChange();
+    }
 }
 
 function capitalise(str: string): string {

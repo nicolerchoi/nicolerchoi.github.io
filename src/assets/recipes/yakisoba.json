@@ -1,0 +1,101 @@
+{
+    "title": "Yakisoba",
+    "hashtags": ["quick", "noodles"],
+    "ingredients": [
+      {
+        "quantity": 3,
+        "unit": "item",
+        "ingredient": "yakisoba noodles",
+        "type": null
+      },
+      {
+        "quantity": 340,
+        "unit": "g",
+        "ingredient": "sliced pork belly/chicken/seafood/mushrooms/veggies",
+        "type": null
+      },
+      {
+        "ingredient": "black pepper",
+        "type": null
+      },
+      {
+        "quantity": 142,
+        "unit": "g",
+        "ingredient": "onion, sliced",
+        "type": null
+      },
+      {
+        "quantity": 100,
+        "unit": "g",
+        "ingredient": "carrots, cut into 5 cm julienne strips",
+        "type": null
+      },
+      {
+        "quantity": 227,
+        "unit": "g",
+        "ingredient": "green cabbage, chopped",
+        "type": null
+      },
+      {
+        "quantity": 3,
+        "unit": "item",
+        "ingredient": "shiitake mushrooms, sliced",
+        "type": null
+      },
+      {
+        "ingredient": "beech mushrooms (蟹味菇)",
+        "type": null
+      },
+      {
+        "ingredient": "white shimeji mushrooms (白玉菇)",
+        "type": null
+      },
+      {
+        "quantity": 2,
+        "unit": "item",
+        "ingredient": "green onions, chopped into 5 cm pieces",
+        "type": null
+      },
+      {
+        "quantity": 60,
+        "unit": "ml",
+        "ingredient": "worcestershire sauce",
+        "type": "Yakisoba sauce"
+      },
+      {
+        "quantity": 4,
+        "unit": "tsp",
+        "ingredient": "oyster sauce",
+        "type": "Yakisoba sauce"
+      },
+      {
+        "quantity": 4,
+        "unit": "tsp",
+        "ingredient": "ketchup",
+        "type": "Yakisoba sauce"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "ingredient": "soy sauce",
+        "type": "Yakisoba sauce"
+      },
+      {
+        "quantity": 2,
+        "unit": "tsp",
+        "ingredient": "sugar",
+        "type": "Yakisoba sauce"
+      }
+    ],
+    "steps": [
+      "Heat up a wok on medium heat. Add oil and yakisoba noodles. Gently loosen up the noodles with chopsticks and set aside.",
+      "Add a bit more oil and stir-fry pork belly slices (or your choice of protein) with black pepper until it is no longer pink.",
+      "Add the onion slice and stir to cook for 1-2 minutes.",
+      "Add the carrots and cook for 1-2 minutes.",
+      "Add the cabbage and mushrooms and to cook until they are almost tender.",
+      "Add the green onions and cook for a minute.",
+      "Add yakisoba and yakisoba sauce and toss to combine the sauce with all the ingredients. Add more sauce to taste and serve."
+    ],
+    "originalRecipe": "https://www.justonecookbook.com/yakisoba/#h-cooking-tips",
+    "video": null
+  }
