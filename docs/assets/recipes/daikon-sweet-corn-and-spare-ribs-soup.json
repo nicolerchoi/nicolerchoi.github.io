@@ -1,0 +1,74 @@
+{
+    "title": "Daikon Sweet Corn and Spare Ribs Soup 蘿蔔粟米排骨湯",
+    "hashtags": ["soup"],
+    "ingredients": [
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "sweet corns",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "garlic sprouts/spring onions",
+            "type": null
+        },
+        {
+            "quantity": 15,
+            "unit": "g",
+            "ingredient":"sliced ginger",
+            "type": null
+        },
+        {
+            "quantity": 6,
+            "unit": "item",
+            "ingredient": "garlic cloves",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "daikons, cut into chunks",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "carrots, cut into chunks",
+            "type": null
+        },
+        {
+            "quantity": 900,
+            "unit":"g",
+            "ingredient": "spare ribs",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "white pepper corn",
+            "type": null
+        },
+        {
+            "quantity": 2.2,
+            "unit": "L",
+            "ingredient": "water",
+            "type": null
+        },
+        {
+            "quantity": 0.5,
+            "unit": "cup",
+            "ingredient": "sake/cooking wine",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Heat up a pot of water. When it is warm, add in the spare ribs and blanch until the water is simmer-boiling. Clean the gunk in cold water.",
+        "In a large pot, add all the ingredients, as well as the daikon and carrot skin in a tea bag. Boil at high heat.",
+        "Remove the scums on the surface when it starts boiling. Add some salt.",
+        "Simmer the soup at low heat for 1-1.5 hour."
+    ],
+    "originalRecipe": null,
+    "video": "https://youtu.be/RBTVX9ZIQfs?si=60T0PCiEGsfi9vkM"
+}
