@@ -6,15 +6,21 @@
     ],
     "ingredients": [
         {
-            "quantity": 100,
+            "quantity": 200,
             "unit": "g",
             "ingredient": "vermicelli",
             "type": null
         },
         {
-            "quantity": 250,
+            "quantity": 300,
             "unit": "g",
             "ingredient": "tofu",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "tsp",
+            "ingredient":"soy sauce",
             "type": null
         },
         {
@@ -36,26 +42,26 @@
             "type": null
         },
         {
-            "ingredient": "basil"
+            "quantity": 40,
+            "unit":"g",
+            "ingredient": "Thai basil",
+            "type": null
         },
         {
-            "ingredient": "spinach"
-        },
-        {
-            "quantity": 0.5,
-            "unit": "tbsp",
+            "quantity": 2,
+            "unit": "tsp",
             "ingredient": "soy sauce",
             "type": "Sauce"
         },
         {
-            "quantity": 2,
+            "quantity": 2.5,
             "unit": "tbsp",
             "ingredient": "oyster sauce",
             "type": "Sauce"
         },
         {
             "quantity": 1,
-            "unit": "tsp",
+            "unit": "tbsp",
             "ingredient": "sugar",
             "type": "Sauce"
         },
@@ -77,10 +83,10 @@
     "steps": [
         "Cook vermicelli. Drain and set aside.",
         "Slice tofu into cubes, julienne red bell pepper, slice onion and mince the garlic.",
-        "Heat up some oil over medium heat and pan fry the tofu until golden brown. Add in 0.5 tbsp soy sauce and mix well.",
+        "Heat up some oil over medium heat and pan fry the tofu until golden brown. Add soy sauce and mix well.",
         "Move the tofu to the side of the pan, stir fry the bell peppers, onions and garlic until the bell peppers are tender.",
-        "Add half of the basil leaves and spinach.",
-        "Add vermicelli and sauce. Mix well and cook until the sauce is reduced down.",
+        "Add half of the basil leaves.",
+        "Add vermicelli and sauce. Mix well and cook until the sauce has thickened.",
         "Add the remaining basil leaves and cook until slightly wilted."
     ],
     "originalRecipe": "https://thefoodietakesflight.com/basil-and-tofu-vermicelli/",
