@@ -1,0 +1,68 @@
+
+{
+    "title": "Chicken Noodles with Goji Berries",
+    "hashtags": ["noodles", "quick", "warm"],
+    "ingredients": [
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "chicken breast, chopped into pieces",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "garlic cloves, sliced",
+            "type": null
+        },
+        {
+            "quantity": 500,
+            "unit": "ml",
+            "ingredient": "water",
+            "type": null
+        },
+        {
+            "ingredient": "vegetables of choice (chinese leaf, pakchoi, magetout)",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tsp",
+            "ingredient": "rice wine",
+            "type": null
+        },
+        {
+            "quantity": 15,
+            "unit": "item",
+            "ingredient": "goji berries",
+            "type": null
+        },
+        {
+            "ingredient": "salt / MSG",
+            "type": null
+        },
+        {
+            "ingredient": "white pepper",
+            "type": null
+        },
+        {
+            "ingredient": "noodles",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "spring onions, chopped",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Heat up the pan at medium low heat. Add chicken and cook until golden brown.",
+        "Add garlic and fry until fragrant.",
+        "Add water, vegetables and noodles. Cook until it starts to boil.",
+        "Add rice wine, goji berries, salt, white pepper and MSG. Cook for another 2 minutes at medium low heat."
+    ],
+    "servingSize": 1,
+    "originalRecipe": null,
+    "video": "https://youtu.be/yO6fhz1AgT0?si=7shbV5BMTwbx28zv"
+}

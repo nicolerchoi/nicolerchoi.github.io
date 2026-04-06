@@ -1,0 +1,93 @@
+
+{
+    "title": "Jambalaya",
+    "hashtags": [],
+    "ingredients": [
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "olive oil",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "onion, diced",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "red bell pepper, thinly sliced",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "garlic cloves, crushed",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "chicken breasts, cut into pieces",
+            "type": null
+        },
+        {
+            "quantity": 80,
+            "unit": "g",
+            "ingredient": "chorizo, cut out of skin and sliced",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "Cajun seasoning",
+            "type": null
+        },
+        {
+            "quantity": 250,
+            "unit": "g",
+            "ingredient": "long grain rice",
+            "type": null
+        },
+        {
+            "quantity": 400,
+            "unit": "g",
+            "ingredient": "tinned plum tomatoes",
+            "type": null
+        },
+        {
+            "quantity": 350,
+            "unit": "ml",
+            "ingredient": "chicken stock",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "item",
+            "ingredient": "spring onions, chopped",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "item",
+            "ingredient": "tomatoes on the vine, diced",
+            "type": null
+        },
+        {
+            "quantity": 0.5,
+            "unit": "item",
+            "ingredient": "pack of parsley, chopped",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Heat olive oil in large pan with lid. Fry onions, garlic and red bell pepper for 3-4 minutes.",
+        "Turn up heat and add chorizo and chicken for 5 minutes with Cajun seasoning.",
+        "Stir in 250g rice for a minute, then add tinned plum tomatoes, chicken stock. Cover for 20 minutes.",
+        "Add spring onions, tomatoes and parleys, and cook for another 5 minutes."
+    ],
+    "originalRecipe": null,
+    "video": null
+}
