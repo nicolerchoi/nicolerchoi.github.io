@@ -1,0 +1,89 @@
+
+{
+    "title": "Hot and sour noodles 酸辣粉",
+    "hashtags": ["noodles", "quick", "warm", "spicy"],
+    "ingredients": [
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "garlic cloves, minced",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "chilli, minced",
+            "type": null
+        },
+        {
+            "quantity": 300,
+            "unit": "g",
+            "ingredient": "pork, minced/chopped",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "tbsp",
+            "ingredient": "chilli bean paste 紅豆瓣醬",
+            "type": null
+        },
+        {
+            "ingredient": "pork bone broth / water",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "dark soy sauce",
+            "type": null
+        },
+        {
+            "quantity": 8,
+            "unit": "items",
+            "ingredient": "small rock sugar cubes 冰糖",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "tbsp",
+            "ingredient": "white/dark vinegar",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "tsp",
+            "ingredient": "peppercorn oil",
+            "type": null
+        },
+        {
+            "quantity": 70,
+            "unit": "g",
+            "ingredient": "pickled mustard greens 酸菜",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "glass/sweet potato vermicelli",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "spring onions, chopped",
+            "type": null
+        }
+    ],
+    "steps": [
+        "If thick/big slices of pork is used, start by frying the pork slices until they turn white.",
+        "Add garlic and chilli and fry until fragrant.",
+        "Add minced pork, if used, and fry until it turns white.",
+        "Add chilli bean paste and stir to evaporate off some moisture.",
+        "Add pork bone broth or water, dark soy sauce, rock, sugar, vinegar and peppercorn oil.",
+        "When it starts to bubble, add picked mustarf greens and vermicelli. Turn to medium low heat and cook for 7-10 minutes.",
+        "Sprinkle spring onions and serve."
+    ],
+    "servingSize": 3,
+    "originalRecipe": null,
+    "video": "https://www.instagram.com/reel/DL9gQtazPiO/?igsh=cTVzZWxydjd4bTNp"
+}

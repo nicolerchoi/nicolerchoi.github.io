@@ -1,0 +1,93 @@
+
+{
+    "title": "Fried Chicken and Mushroom Udon",
+    "hashtags": ["noodles", "quick"],
+    "ingredients": [
+        {
+            "quantity": 250,
+            "unit": "g",
+            "ingredient": "chicken/pork/tofu, chopped into pieces, marinated in salt, white pepper and rice wine for 10 minutes",
+            "type": null
+        },
+        {
+            "quantity": 8,
+            "unit": "item",
+            "ingredient": "shiitake mushrooms, sliced",
+            "type": null
+        },
+        {
+            "quantity": 1,
+            "unit": "item",
+            "ingredient": "onion, julienned",
+            "type": null
+        },
+        {
+            "quantity": 3,
+            "unit": "item",
+            "ingredient": "garlic cloves, minced",
+            "type": null
+        },
+        {
+            "quantity": 2,
+            "unit": "item",
+            "ingredient": "spring onions, chopped",
+            "type": null
+        },
+        {
+            "quantity": 300,
+            "unit": "ml",
+            "ingredient": "water",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "soy sauce",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "mirin",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tbsp",
+            "ingredient": "rice wine",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 2,
+            "unit": "tsp",
+            "ingredient": "shiyama bonito 鰹魚粉 (optional)",
+            "type": "Sauce"
+        },
+        {
+            "ingredient": "salt",
+            "type": "Sauce"
+        },
+        {
+            "ingredient": "white pepper",
+            "type": "Sauce"
+        },
+        {
+            "quantity": 300,
+            "unit": "g",
+            "ingredient": "udon",
+            "type": null
+        }
+    ],
+    "steps": [
+        "Add oil to hot wok. Add in the chicken/pork/tofu and fry until it's golden.",
+        "Push the chicken to the side of the wok. Add shittake mushrooms and stir until it starts to brown.",
+        "Add onion and fry until it starts to brown.",
+        "Add garlic and fry until fragrant.",
+        "Add sauce and turn up the heat until it starts to boil.",
+        "Add udon and loosen it up. Let it absorb the sauce.",
+        "When the sauce thickens, sprinkle spring onions and serve."
+    ],
+    "servingSize": 3,
+    "originalRecipe": null,
+    "video": "https://www.instagram.com/reel/DOAy2GsDzTW/?igsh=OTdlNTNjdWxsaHNi"
+}
