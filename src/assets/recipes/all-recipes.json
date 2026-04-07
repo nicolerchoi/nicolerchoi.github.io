@@ -49,6 +49,13 @@
         "ingredients": ["chicken breast", "carrot", "onion", "spring onion", "ginger", "garlic", "egg noodles"]
     },
     {
+        "id": "chicken-noodles-with-goji-berries",
+        "title": "Chicken Noodles with Goji Berries",
+        "cuisines": ["asian", "chinese"],
+        "hashtags": ["noodles", "quick", "warm"],
+        "ingredients": ["chicken breast", "spring onion", "goji berries"]
+    },
+    {
         "id": "chicken-stew",
         "title": "Chicken Stew",
         "cuisines": ["european"],
@@ -98,11 +105,32 @@
         "ingredients": ["chicken", "bell pepper", "onion", "tortilla", "salsa", "cheddar cheese"]
     },
     {
+        "id": "fried-chicken-mushroom-udon",
+        "title": "Fried Chicken and Mushroom Udon",
+        "cuisines": ["asian", "japanese"],
+        "hashtags": ["noodles", "quick"],
+        "ingredients": ["chicken", "pork", "tofu", "onion", "spring onion", "shittake mushroom"]
+    },
+    {
         "id": "general-tsos-chicken",
         "title": "General Tso's Chicken 左宗棠雞",
         "cuisines": ["asian", "chinese"],
         "hashtags": ["goes well with rice"],
         "ingredients": ["chicken thigh", "chilli", "garlic"]
+    },
+    {
+        "id": "hot-and-sour-noodles",
+        "title": "Hot and sour noodles 酸辣粉",
+        "cuisines": ["asian", "chinese"],
+        "hashtags": ["noodles", "quick", "warm", "spicy"],
+        "ingredients": ["pork", "minced pork", "vermicelli", "chilli", "spring onion", "pickled mustard greens"]
+    },
+    {
+        "id": "jambalaya",
+        "title": "Jambalaya",
+        "cuisines": ["us", "african", "spanish"],
+        "hashtags": [],
+        "ingredients": ["chicken", "bell pepper", "onion", "chorizo", "tomato", "spring onion"]
     },
     {
         "id": "japanese-chicken-curry",
